@@ -26,6 +26,16 @@ These examples show **how to derive direction**, not what every result should lo
 
 **Ownable response:** treat scarcity as a constraint. Use fewer decisive images, detail crops, typography, layout, verified data, material treatments, illustration, or deliberate quiet. If an image does not answer both “why this?” and “why here?”, leave it out.
 
+## Tradition, ritual, or cultural storytelling
+
+**Generic response:** use a random stock performance photo because the section needs media, or add a decorative “heritage” illustration with no relationship to the copy.
+
+**Ownable response:** if the section is specifically about ritual, continuity, memory, or traditional practice, consider an authored visual language that reinforces that meaning — for example a restrained hand-drawn, painted, etched, or archival-feeling composition of relevant instruments, objects, materials, or gestures. The illustration belongs only when it strengthens that exact narrative moment.
+
+A strong generated illustration still has to answer **why this?** and **why here?** If the same artwork could be dropped beside unrelated copy with no loss of meaning, it is decoration rather than art direction.
+
+For evidence-bearing content — the actual performer, product, venue, facility, craft result, or other claim-sensitive subject — use truthful real imagery instead of letting a stylized illustration impersonate proof.
+
 ## Existing brand system
 
 **Generic response:** replace the visual system because a more fashionable one looks better.

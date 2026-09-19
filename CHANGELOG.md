@@ -2,6 +2,15 @@
 
 All notable changes to Ownable are documented here.
 
+## 1.1.0 — 2026-09-20
+
+- added bespoke illustrative asset generation as a first-class art-direction capability;
+- explicitly supports hand-drawn, painting-like, watercolor/gouache, sketch, etched/engraved, collage, textured editorial, diagrammatic, mixed-media, stylized 3D, and other subject-appropriate generated visuals;
+- requires every generated illustration to pass the existing “earn its place,” purpose-first, and “why this? / why here?” tests;
+- clarifies that visual style must have a semantic role rather than acting as a generic premium preset;
+- distinguishes illustrative/atmospheric imagery from documentary and proof-critical imagery;
+- prevents agents from creating filler sections or unnecessary artwork merely to showcase generated assets.
+
 ## 1.0.0 — 2026-09-19
 
 Initial public release.

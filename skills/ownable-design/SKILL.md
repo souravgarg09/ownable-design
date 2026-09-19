@@ -1,7 +1,7 @@
 ---
 name: ownable-design
 description: Subject-specific art direction for websites, apps, campaigns, portfolios, and digital experiences. Use when a design needs a strong creative North Star, brand specificity, coherent asset direction, truthful visual storytelling, structural economy, or an identity that cannot be transplanted to an unrelated brand by swapping the logo and copy.
-version: 1.0.0
+version: 1.1.0
 license: MIT
 ---
 
@@ -105,50 +105,67 @@ Plan how campaign media, editorial photography, people, products, architecture/e
 ### 20. Treat asset scarcity as a creative constraint
 When strong imagery is limited, do not force every section to contain a photograph or generate decorative filler. Use typography, composition, verified data, materials, illustration, detail crops, negative space, interaction, or fewer stronger visuals as appropriate.
 
-### 21. Proactively transform assets when useful and supported
+### 21. Generate bespoke illustrative assets when the concept earns them
+When the runtime can safely generate imagery, proactively consider original non-photographic assets — such as hand-drawn illustration, painting-like treatments, watercolor or gouache, ink or charcoal sketches, etching/engraving, collage, textured editorial artwork, diagrammatic compositions, mixed media, stylized 3D stills, or another subject-appropriate visual language — when they materially strengthen the experience.
+
+Use this as a first-class art-direction tool when it can express the Creative North Star, communicate atmosphere or symbolism, solve asset scarcity with intention, create narrative depth, or produce a more ownable visual language than generic photography.
+
+The style must have a semantic role. “Hand-drawn,” “painted,” “vintage,” “editorial,” or any other treatment is not an automatic premium upgrade or a preset to scatter across the site. Derive the treatment from the subject, content, era, materials, emotion, or story, and keep it coherent with the broader asset language.
+
+These generated visuals remain subject to the same gates as every other image:
+- they must earn their place;
+- purpose comes before asset;
+- they must answer both “why this?” and “why here?”;
+- do not invent a filler section merely to showcase them;
+- do not generate extra artwork solely to make every section visual;
+- and do not use illustrative imagery where documentary or proof imagery is required.
+
+Illustrative and documentary imagery may coexist. Use truthful real imagery for evidence-sensitive moments and authored/stylized imagery for atmosphere, metaphor, explanation, memory, ritual, process, or emotional framing when that distinction is clear.
+
+### 22. Proactively transform assets when useful and supported
 When the runtime can safely edit or generate assets, use background removal, transparent cutouts, masking, cleanup, relighting, reframing, perspective correction, object removal, background cleanup/replacement, compositing, upscale/detail recovery, crop variants, and supporting generated visuals when they materially improve the work.
 
 Do not make the user manually prepare transparent PNG/WebP/SVG variants when the available tools can safely produce them. If the runtime cannot transform assets, specify the needed variants instead of pretending they were created.
 
-### 22. Asset preparation must preserve truth
+### 23. Asset preparation must preserve truth
 Logo cleanup is not logo redesign: preserve lettering, geometry, proportions, spacing, recognizable colors, and identity unless redesign is explicitly requested.
 
 For real people, products, jewellery, architecture, facilities, medical subjects, technical information, or other decision-critical visuals, enhancement must not invent misleading features, outcomes, materials, facilities, credentials, or characteristics. Distinguish documentary/proof imagery from illustrative/atmospheric imagery.
 
-### 23. Art-direct assets for their context
+### 24. Art-direct assets for their context
 Do not assume one crop or composition should serve every placement. Create or select desktop/mobile, portrait/landscape, detail/full-scene, light/dark-background, or cutout variants when they materially improve focus and storytelling.
 
-### 24. Real proof beats decorative prestige
+### 25. Real proof beats decorative prestige
 When reassurance matters, prefer truthful evidence such as real work, products, facilities, process, people, credentials, locations, reviews, or other verified proof over decorative “premium” signals. Keep proof close to the claim or decision it supports when possible. Never fabricate trust-bearing facts to complete a design.
 
-### 25. Preserve brand gravity around famous faces
+### 26. Preserve brand gravity around famous faces
 When a celebrity, ambassador, founder, doctor, model, influencer, or performer appears, the surrounding experience should still belong to the underlying brand/product unless that person is themselves the primary brand.
 
-### 26. Visual economy is not minimalism
+### 27. Visual economy is not minimalism
 Every visible element and every large empty area consumes attention. Decoration and whitespace should support hierarchy, identity, atmosphere, tension, rhythm, comprehension, or narrative. Sparse is not automatically premium; rich is not automatically cluttered.
 
 When something feels weak, test whether the real problem is unnecessary structure, redundant content, weak assets, or a missing concept before decorating it further.
 
-### 27. Design the whole experience as a sequence or flow
+### 28. Design the whole experience as a sequence or flow
 For narrative, editorial, campaign, and marketing experiences, plan progression: opening, orientation, proof, depth, contrast, quieter passages, interaction, decision/action, and ending. Not every section should carry equal visual intensity.
 
 For task-oriented products, apply the same principle to flow, priority, and state progression rather than forcing storytelling onto the interface.
 
-### 28. Signature moments must be subject-specific
+### 29. Signature moments must be subject-specific
 For ambitious work, seek one or a small number of memorable moments that emerge from the subject's story, material, image, behavior, data, environment, typography, interaction, or transformation. A fashionable shader, marquee, cursor effect, horizontal scroll, or 3D object is not a signature merely because it is unusual.
 
-### 29. Explore advanced media broadly; ship it only when the concept earns it
+### 30. Explore advanced media broadly; ship it only when the concept earns it
 3D, WebGL, shaders, generative graphics, cinematic video, image sequences, physics, spatial galleries, sound, unusual navigation, configurators, and other advanced techniques may be considered proactively. They survive only when they strengthen the concept. Let active specialist skills govern motion, accessibility, performance, and progressive enhancement.
 
-### 30. Do not confuse repetition with consistency
+### 31. Do not confuse repetition with consistency
 Consistency comes from shared rules, materials, typography, behavior, and hierarchy, not from stamping the same composition, photograph, card arrangement, motif, or effect everywhere. A recurring motif should evolve with context rather than become wallpaper.
 
-### 31. Check the design fingerprint
+### 32. Check the design fingerprint
 When prior work or reference history is available, compare major fingerprints: navigation silhouette/behavior, hero composition, typography pairing, palette mood, card grammar, section rhythm, CTA treatment, gallery behavior, footer structure, cursor treatment, 3D trick, reveal choreography, and signature interactions.
 
 Reuse quality standards and implementation primitives; avoid reusing an unrelated project's recognizable surface identity.
 
-### 32. Final ownability check
+### 33. Final ownability check
 Before considering substantial art direction complete, verify that:
 
 - the experience feels specific to its subject;

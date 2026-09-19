@@ -6,7 +6,7 @@
 
 A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.1.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -35,6 +35,7 @@ Ownable pushes the agent to mine the subject itself before reaching for template
 - **Why this? Why here?** — every important image must justify both selection and placement.
 - **Image uniqueness** — avoid exact and perceptual repetition unless reuse has a real reason.
 - **Asset language** — treat photography, illustration, 3D, video, cutouts, details, and responsive variants as one visual system.
+- **Bespoke illustrative generation** — proactively create hand-drawn, painted, etched, collage, textured editorial, mixed-media, stylized 3D, or other subject-appropriate visuals when they genuinely earn the role.
 - **Capability-aware asset transformation** — create cutouts, transparent assets, cleanup, reframing, relighting, compositing, and variants when the runtime can safely do so.
 - **Truth-sensitive editing** — never turn visual polish into false product, medical, architectural, credential, or proof claims.
 - **Real proof over decorative prestige** — trust should come from evidence, not just luxury styling.
@@ -136,6 +137,18 @@ If an asset does not strengthen a meaningful part of the experience, leave it ou
 
 A visually attractive image is not automatically relevant. The subject matter, evidence, emotion, context, and relationship to adjacent content matter more than palette matching.
 
+### Bespoke illustration is a first-class tool, not filler
+
+Ownable can proactively use AI-generated or agent-created non-photographic imagery when the concept calls for it: hand-drawn work, painting-like treatments, etching, collage, textured editorial art, diagrammatic visuals, stylized 3D, and other authored directions.
+
+The test is not “would this look beautiful?” It is the same test applied to every asset:
+
+- **Why this?**
+- **Why here?**
+- What does this visual communicate that the surrounding content needs?
+
+A stylized illustration should reinforce the subject, North Star, atmosphere, symbolism, process, memory, ritual, or narrative. It should not exist merely because a section looks empty. Proof-critical moments still use truthful documentary imagery.
+
 ### Consistency is not repetition
 
 A coherent system can share typography, materials, spacing logic, hierarchy, and behavior while still changing composition and imagery as the content changes. Repeating the same card grid, crop, hero structure, or effect everywhere is not consistency.
@@ -177,7 +190,7 @@ ownable-design/
 
 Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
 
-Current release: **1.0.0**.
+Current release: **1.1.0**.
 
 ## Contributing
 
