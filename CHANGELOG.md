@@ -2,6 +2,17 @@
 
 All notable changes to Ownable are documented here.
 
+## 1.2.0 — 2026-09-20
+
+- added content-led composition: content, evidence, imagery, task, and hierarchy shape form instead of being forced into predetermined section shells;
+- added concept-led asset commissioning: the supplied asset pack is not the ceiling when a truthful concept genuinely needs a missing visual role;
+- expanded identity carriers into distributed identity so brand character survives beyond the hero, logo treatment, or one signature interaction;
+- expanded category-cosplay guidance into cultural specificity without cultural costume;
+- clarified that cultural cues should come from relevant materials, rituals, language, craft, places, objects, archives, and history rather than token “heritage” styling;
+- explicitly defers detailed layout/system execution to Taste or Impeccable when those specialist skills are active;
+- explicitly defers asset provenance/verification workflow to Impeccable when active;
+- updated the final ownability check to cover distributed identity, cultural specificity, content-to-form fit, and missing-but-earned asset roles.
+
 ## 1.1.0 — 2026-09-20
 
 - added bespoke illustrative asset generation as a first-class art-direction capability;

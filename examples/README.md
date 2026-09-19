@@ -36,6 +36,30 @@ A strong generated illustration still has to answer **why this?** and **why here
 
 For evidence-bearing content — the actual performer, product, venue, facility, craft result, or other claim-sensitive subject — use truthful real imagery instead of letting a stylized illustration impersonate proof.
 
+## Content-led composition
+
+**Generic response:** choose a split section, a three-card grid, and a centered text block first, then shorten or stretch the real content until it fits those shapes.
+
+**Ownable response:** identify what each piece of content actually is doing. A single decisive proof image may deserve a large uninterrupted field; a dense comparison may need a structured matrix; a short quote may work as a pause; a process may need sequential or spatial treatment. Keep one visual world, but let different content jobs produce different compositions.
+
+## Missing asset, strong concept
+
+**Generic response:** weaken the concept because the supplied folder does not contain the exact crop, detail, diagram, cutout, or contextual visual the section needs — or reuse an unrelated existing image simply because it is available.
+
+**Ownable response:** first verify that the visual role is genuinely necessary. If it is, create or transform the asset when safe, source a truthful real asset when authenticity matters, or specify/request it clearly. Do not create a new section just to justify the new asset, and do not generate the asset if the section works better without one.
+
+## Culturally rooted work
+
+**Generic response:** communicate “heritage” using generic gold ornament, stock motifs, script-like type, or decorative symbols detached from the actual culture.
+
+**Ownable response:** mine relevant specifics — materials, craft process, language, architecture, rituals, landscape, objects, archival forms, local visual history, or other verified context — and abstract from them with restraint. Cultural specificity should make the work more truthful, not more costume-like.
+
+## Distributed identity
+
+**Generic response:** make the hero highly branded, then let the rest of the site collapse into generic cards, split sections, and a stock footer.
+
+**Ownable response:** let a small set of identity carriers continue through quieter surfaces — crop logic, framing, material treatment, type gesture, image behavior, spatial relationship, or another subject-derived cue. The expression can become quieter, but the site should still feel like the same brand after the hero disappears.
+
 ## Existing brand system
 
 **Generic response:** replace the visual system because a more fashionable one looks better.

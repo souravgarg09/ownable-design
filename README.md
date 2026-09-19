@@ -6,7 +6,7 @@
 
 A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
 
-[![Version](https://img.shields.io/badge/version-1.1.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.2.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -28,13 +28,16 @@ Ownable pushes the agent to mine the subject itself before reaching for template
 
 - **Subject before moodboard** — derive visual vocabulary from the real product, people, place, materials, process, culture, history, and proof.
 - **Creative North Star** — define a project-specific thesis that actually changes the work.
-- **Identity carriers** — create recognition beyond the logo through recurring but evolving cues.
+- **Distributed identity carriers** — create recognition beyond the logo and carry it past the hero into quieter surfaces through recurring but evolving cues.
 - **Logo-swap / ownability test** — catch art direction that is polished but generic.
+- **Cultural specificity without costume** — use real materials, rituals, language, craft, places, objects, archives, and history instead of token “heritage” motifs.
+- **Content-led composition** — let the real content, evidence, imagery, task, and hierarchy determine form instead of pouring everything into predetermined section shells.
 - **Structural economy** — every section, page, and major screen must earn its place.
 - **Purpose-first assets** — never invent a section just to use an available image.
 - **Why this? Why here?** — every important image must justify both selection and placement.
 - **Image uniqueness** — avoid exact and perceptual repetition unless reuse has a real reason.
 - **Asset language** — treat photography, illustration, 3D, video, cutouts, details, and responsive variants as one visual system.
+- **Concept-led asset commissioning** — the supplied asset folder is not the ceiling; create, source, or clearly request missing assets that a strong concept genuinely needs.
 - **Bespoke illustrative generation** — proactively create hand-drawn, painted, etched, collage, textured editorial, mixed-media, stylized 3D, or other subject-appropriate visuals when they genuinely earn the role.
 - **Capability-aware asset transformation** — create cutouts, transparent assets, cleanup, reframing, relighting, compositing, and variants when the runtime can safely do so.
 - **Truth-sensitive editing** — never turn visual polish into false product, medical, architectural, credential, or proof claims.
@@ -137,6 +140,18 @@ If an asset does not strengthen a meaningful part of the experience, leave it ou
 
 A visually attractive image is not automatically relevant. The subject matter, evidence, emotion, context, and relationship to adjacent content matter more than palette matching.
 
+### Content should shape composition
+
+Do not start with a reusable section formula and pour every kind of content into it. The actual content should influence the form: copy length, proof, imagery, product behavior, hierarchy, task, and narrative all matter.
+
+A repeated layout is useful when the content really has the same job. Repeating it because it is convenient is template behavior.
+
+### The supplied asset folder is not the ceiling
+
+Ownable does not require the agent to accept an incomplete asset pack as the limit of the concept. If a meaningful section needs a missing cutout, detail, contextual scene, diagram, illustration, texture, crop, or other visual role, the agent should create it when safe, source a truthful real asset when authenticity matters, or specify/request it clearly.
+
+The inverse rule still applies: do not commission new visuals just because empty space exists. Every commissioned asset must earn its role.
+
 ### Bespoke illustration is a first-class tool, not filler
 
 Ownable can proactively use AI-generated or agent-created non-photographic imagery when the concept calls for it: hand-drawn work, painting-like treatments, etching, collage, textured editorial art, diagrammatic visuals, stylized 3D, and other authored directions.
@@ -190,7 +205,7 @@ ownable-design/
 
 Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
 
-Current release: **1.1.0**.
+Current release: **1.2.0**.
 
 ## Contributing
 
