@@ -13,6 +13,12 @@ Ownable is a platform-agnostic art-direction skill. Its job is not to make inter
 
 It intentionally stays out of domains that specialist skills handle better.
 
+## Operating guard
+
+The explicit user brief, verified product/brand truth, legal and safety requirements, required content/functionality, and native platform constraints are binding. Ownable shapes art direction inside those constraints; it does not use “ownability” as permission to ignore them.
+
+When a rule below conflicts with an explicit requirement, satisfy the requirement and preserve the principle as far as the context allows.
+
 ## Companion precedence
 
 When the following companion skills are loaded and applicable, they outrank Ownable inside their specialist domains:
@@ -78,7 +84,7 @@ If two invented or optional blocks do essentially the same job, merge, different
 ### 15. Purpose first; asset second
 Never invent a section solely to use an available photo, illustration, video, logo treatment, 3D object, or other asset. Establish the section's job first; use an asset only if it strengthens that job.
 
-If an asset does not earn a meaningful role anywhere in the experience, remove it. The asset folder is a source pool, not a checklist.
+If an asset does not earn a meaningful role anywhere in the experience, remove it unless the brief explicitly requires its use. If it is required, integrate it truthfully into an existing purpose rather than inventing filler around it. The asset folder is a source pool, not a checklist.
 
 ### 16. Every image must answer two questions: why this, and why here?
 An image should justify both its presence in the project and its exact placement beside this claim, section, task, or narrative moment. Palette harmony alone is not relevance. Subject matter, evidence, emotion, context, and semantic fit matter more.
