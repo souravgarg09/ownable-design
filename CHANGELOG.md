@@ -6,6 +6,7 @@ All notable changes to Ownable are documented here.
 
 Initial public release.
 
+- explicit brief/truth operating guard;
 - subject-first art-direction framework;
 - evidence-before-aesthetics and constraint-as-authorship principles;
 - Creative North Star plus anti-literalization guard;
