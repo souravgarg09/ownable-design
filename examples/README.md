@@ -108,6 +108,36 @@ For evidence-bearing content — the actual performer, product, venue, facility,
 
 **Ownable response:** add motion when it can explain spatial continuity, state change, process, comparison, sequence, or narrative progression more clearly than a static treatment. Ownable defines the role; Emil governs the animation mechanics when available.
 
+## Wrong medium for the information
+
+**Generic response:** put a complex process into three equal cards because the page already uses cards.
+
+**Ownable response:** choose the representation from the information. A process may need a sequence, annotated diagram, timeline, interactive explainer, or one decisive visual with steps. Use cards only when the content is genuinely card-like.
+
+## Decorative data visualization
+
+**Generic response:** turn a few marketing numbers into an elaborate chart or map to make the page feel sophisticated.
+
+**Ownable response:** use a chart, map, diagram, or timeline only when it represents real relationships the user needs to understand. Never invent precision, geography, causal links, or comparative structure. If three plain numbers communicate better, keep them plain.
+
+## Video, 3D, or sound without a job
+
+**Generic response:** add a background video, rotating 3D object, ambient audio, or spatial effect because premium sites use rich media.
+
+**Ownable response:** ask what the medium contributes. Keep it when it reveals product form, process, environment, performance, spatial behavior, atmosphere, or another meaningful quality. Simplify, replace, or remove it when a still, diagram, text, or interaction communicates better.
+
+## Responsive re-art-direction
+
+**Generic response:** shrink the desktop hero, crop the same image harder, stack every section, and keep the same interaction on mobile.
+
+**Ownable response:** preserve the identity but re-art-direct the context. A desktop image sequence may become one decisive portrait crop; a spatial interaction may become a swipeable sequence; secondary atmosphere may disappear; proof and action may move earlier. Required content and functionality remain intact.
+
+## Typography and material as identity
+
+**Generic response:** treat type, color, texture, borders, surfaces, and backgrounds as finishing polish after the “real” design is done.
+
+**Ownable response:** when they meaningfully carry the subject, treat typography and material language as identity carriers. Refine or replace generic choices when they weaken the visual world, while deferring detailed type/color/system execution to Taste or Impeccable when those skills are active.
+
 ## Existing brand system
 
 **Generic response:** replace the visual system because a more fashionable one looks better.

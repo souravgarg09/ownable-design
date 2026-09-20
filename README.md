@@ -6,7 +6,7 @@
 
 A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
 
-[![Version](https://img.shields.io/badge/version-1.4.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.5.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -32,13 +32,16 @@ Ownable pushes the agent to mine the subject itself before reaching for template
 - **Logo-swap / ownability test** — catch art direction that is polished but generic.
 - **Cultural specificity without costume** — use real materials, rituals, language, craft, places, objects, archives, and history instead of token “heritage” motifs.
 - **Content-led composition** — let the real content, evidence, imagery, task, and hierarchy determine form instead of pouring everything into predetermined section shells.
-- **Active art-direction intervention** — inspect every major section, visible image/media moment, and meaningful motion/interaction moment in scope, then keep, fix, replace, restructure, add, simplify, or remove what the experience actually needs.
+- **Active art-direction intervention** — inspect every major section and meaningful expressive medium in scope, then keep, refine, transform, replace, add, simplify, regroup, or remove what the experience actually needs.
 - **Root-cause diagnosis** — fix the real structural, content, proof, sequencing, asset, or concept problem instead of decorating the symptom.
 - **Structural economy** — every section, page, and major screen must earn its place.
 - **Structural surgery and ordering** — reorder, regroup, merge, split, replace, or remove sections, tabs, navigation items, and content groups when the hierarchy or flow genuinely improves.
 - **Purpose-first assets** — never invent a section just to use an available image.
 - **Why this? Why here?** — every important image must justify both selection and placement.
 - **Asset intervention ladder** — keep, reframe, transform, replace with a stronger real asset, generate, or remove according to the actual problem.
+- **Medium-agnostic intervention** — typography, color/material, content framing, imagery, iconography, data/diagrams, motion, interaction, video, 3D, sound, backgrounds, proof presentation, and responsive treatment are all valid art-direction materials.
+- **Representation before decoration** — choose prose, image, diagram, chart, map, timeline, video, 3D, sound, or interaction because it communicates the job best, not because the template expects it.
+- **Responsive re-art-direction** — desktop, tablet, and mobile may use different crops, media, sequencing, interaction, and emphasis while preserving the same identity.
 - **Motion intervention ladder** — keep, retarget/resequence, simplify, replace, add, or remove animation according to its real role.
 - **Web-sourced real imagery when appropriate** — proactively find better real assets when needed, while preserving provenance, truth, and usage rights.
 - **Image uniqueness** — avoid exact and perceptual repetition unless reuse has a real reason.
@@ -99,7 +102,7 @@ Use Ownable while designing this website. Mine the subject before choosing a vis
 For an existing design:
 
 ```text
-Use Ownable to actively improve the art direction, not just critique it. Keep the brief and required content intact, audit every major section, visible image/media moment, and meaningful motion/interaction moment in scope; replace or remove weak imagery; simplify, replace, add, or remove motion where needed; merge or replace redundant sections; reorder structure when the flow improves; and run the logo-swap test before finalizing.
+Use Ownable to actively improve the art direction, not just critique it. Keep the brief and required content intact, audit every major section and meaningful expressive medium in scope; replace or remove weak imagery; refine typography/color/material when needed; choose better diagrams/data/video/3D/interaction representations when they communicate better; simplify, replace, add, or remove motion where needed; re-art-direct responsive contexts when necessary; merge or replace redundant sections; reorder structure when the flow improves; and run the logo-swap test before finalizing.
 ```
 
 Ownable does not require special slash commands. It is designed to improve the agent's judgment while it performs the user's actual task.
@@ -152,6 +155,30 @@ A useful default decision order is:
 The ladder is not mechanical. Proof-sensitive moments prefer verified real imagery. Illustration or generated photography is used only when truthful for the role.
 
 When web access is available, the agent may search for stronger real imagery. For production use, web visibility alone is not permission: prefer official, owned, appropriately licensed, public-domain, or otherwise approved assets.
+
+### Ownable is medium-agnostic
+
+Ownable does not treat imagery and animation as special exceptions. Anything that shapes the experience can be art-directed: typography, color/material, content framing, images, illustration, iconography, diagrams, data visualization, motion, interaction, video, 3D, sound, backgrounds, proof presentation, and responsive treatment.
+
+The test is consistent:
+
+- **Why this medium?**
+- **Why here?**
+- **Why this treatment?**
+
+The agent may change the medium itself when another form communicates better. A dense explanation may become a diagram; a process may become a timeline or interactive explainer; a generic video may become a decisive still; a 3D object may disappear if it adds spectacle but no meaning.
+
+### Representation before decoration
+
+The goal is not to maximize media richness. The goal is to choose the clearest and most ownable representation for the job.
+
+Charts, maps, timelines, diagrams, and other information graphics must represent real information. They must not invent precision, relationships, geography, or causality merely to look sophisticated.
+
+### Responsive re-art-direction
+
+Ownable may deliberately change crop, asset, media type, sequence, interaction, intensity, or emphasis across contexts. A desktop cinematic moment does not have to survive unchanged on mobile.
+
+Responsive variation must preserve required content, functionality, truth, and identity. Impeccable governs the technical responsive implementation; Ownable governs the art-direction decision.
 
 ### Motion is art direction too
 
@@ -263,7 +290,7 @@ ownable-design/
 
 Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
 
-Current release: **1.4.0**.
+Current release: **1.5.0**.
 
 ## Contributing
 

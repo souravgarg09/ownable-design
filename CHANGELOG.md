@@ -2,6 +2,17 @@
 
 All notable changes to Ownable are documented here.
 
+## 1.5.0 — 2026-09-20
+
+- generalized Ownable from image/structure/motion intervention into medium-agnostic art-direction intervention;
+- explicitly treats typography, color/material language, content framing, imagery, illustration, iconography/graphic marks, diagrams, information graphics, data visualization, motion, interaction, video, 3D/spatial media, sound, backgrounds/environmental layers, proof presentation, and responsive presentation as editable art-direction materials;
+- added the universal medium test: “why this medium, why here, and why this treatment?”;
+- added representation-before-decoration: agents may change the representational form itself when another medium communicates the content more clearly or more meaningfully;
+- explicitly allows diagrams, timelines, maps, comparisons, charts, process graphics, interactive explainers, video, 3D/spatial views, audio moments, or deliberate absence of media when they are the right representation;
+- added truth guards for information graphics so agents do not invent data, precision, geography, causality, or relationships for visual sophistication;
+- added responsive re-art-direction: supported contexts may use different crops, assets, media types, sequencing, interaction models, detail levels, signature moments, or emphasis while preserving identity and truth;
+- preserves specialist boundaries: Taste/Impeccable own detailed typography, color, layout, UX, system, and responsive execution; Emil owns motion mechanics; Ownable owns medium choice, conceptual role, and subject-specific fit.
+
 ## 1.4.0 — 2026-09-20
 
 - promoted motion and interaction to first-class Ownable art-direction materials alongside imagery and structure;
