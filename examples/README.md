@@ -60,6 +60,36 @@ For evidence-bearing content — the actual performer, product, venue, facility,
 
 **Ownable response:** let a small set of identity carriers continue through quieter surfaces — crop logic, framing, material treatment, type gesture, image behavior, spatial relationship, or another subject-derived cue. The expression can become quieter, but the site should still feel like the same brand after the hero disappears.
 
+## Weak photo in a strong section
+
+**Generic response:** keep the supplied image because the client provided it, then add filters, overlays, and gradients until it looks more expensive.
+
+**Ownable response:** diagnose whether the problem is the crop, source quality, subject relevance, proof role, or the fact that the section does not need imagery at all. Keep and reframe a good source; truthfully transform a salvageable one; replace it with a stronger approved real image when authenticity matters; generate a new visual when generation is appropriate; or remove the image when the composition becomes stronger without it.
+
+## Better real imagery from the web
+
+**Generic response:** keep a weak local image because it is already in the project, or paste the first attractive search result into production.
+
+**Ownable response:** when the section genuinely needs reality and web access exists, search for a stronger first-party, official, owned, appropriately licensed, public-domain, or otherwise approved asset. Use uncertain-rights search results as reference rather than silently shipping them. Proof-sensitive imagery must remain verifiable.
+
+## Redundant sections
+
+**Generic response:** preserve two sections because both already exist, then style them differently to hide that they communicate the same thing.
+
+**Ownable response:** identify their actual jobs. If both are delivering the same proof, message, or emotional beat, merge them into one stronger section, differentiate their purposes, or remove the optional weaker one. Do not use decoration to disguise redundancy.
+
+## Wrong section concept
+
+**Generic response:** polish a generic three-card section with better shadows, motion, and typography.
+
+**Ownable response:** if the content is not naturally three equal cards, replace the section concept. A process may become a sequence, proof may become one decisive visual plus evidence, or a narrative passage may become an editorial composition. Fix the structure rather than beautifying the wrong shell.
+
+## Reordering tabs and sections
+
+**Generic response:** preserve the original order because changing navigation or section sequence feels risky.
+
+**Ownable response:** inspect priority and journey. Move proof earlier if belief is blocking action, regroup related tabs, promote the most-used or most-important view, delay detail until context exists, and reorder sections when the new sequence improves comprehension or decision-making. Preserve required routes, deep links, semantics, legal content, and native/task expectations.
+
 ## Existing brand system
 
 **Generic response:** replace the visual system because a more fashionable one looks better.

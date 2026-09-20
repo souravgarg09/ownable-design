@@ -6,7 +6,7 @@
 
 A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
 
-[![Version](https://img.shields.io/badge/version-1.2.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.3.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -32,9 +32,14 @@ Ownable pushes the agent to mine the subject itself before reaching for template
 - **Logo-swap / ownability test** — catch art direction that is polished but generic.
 - **Cultural specificity without costume** — use real materials, rituals, language, craft, places, objects, archives, and history instead of token “heritage” motifs.
 - **Content-led composition** — let the real content, evidence, imagery, task, and hierarchy determine form instead of pouring everything into predetermined section shells.
+- **Active art-direction intervention** — inspect every major section and visible image/media moment in scope, then keep, fix, replace, restructure, or remove what the experience actually needs.
+- **Root-cause diagnosis** — fix the real structural, content, proof, sequencing, asset, or concept problem instead of decorating the symptom.
 - **Structural economy** — every section, page, and major screen must earn its place.
+- **Structural surgery and ordering** — reorder, regroup, merge, split, replace, or remove sections, tabs, navigation items, and content groups when the hierarchy or flow genuinely improves.
 - **Purpose-first assets** — never invent a section just to use an available image.
 - **Why this? Why here?** — every important image must justify both selection and placement.
+- **Asset intervention ladder** — keep, reframe, transform, replace with a stronger real asset, generate, or remove according to the actual problem.
+- **Web-sourced real imagery when appropriate** — proactively find better real assets when needed, while preserving provenance, truth, and usage rights.
 - **Image uniqueness** — avoid exact and perceptual repetition unless reuse has a real reason.
 - **Asset language** — treat photography, illustration, 3D, video, cutouts, details, and responsive variants as one visual system.
 - **Concept-led asset commissioning** — the supplied asset folder is not the ceiling; create, source, or clearly request missing assets that a strong concept genuinely needs.
@@ -93,7 +98,7 @@ Use Ownable while designing this website. Mine the subject before choosing a vis
 For an existing design:
 
 ```text
-Use Ownable to review the art direction. Keep the brief and required content intact, but find anything generic, structurally unnecessary, asset-led instead of purpose-led, visually repetitive, or transferable to an unrelated brand.
+Use Ownable to actively improve the art direction, not just critique it. Keep the brief and required content intact, audit every major section and visible image/media moment in scope, replace or remove weak imagery, merge or replace redundant sections, reorder structure when the flow improves, and run the logo-swap test before finalizing.
 ```
 
 Ownable does not require special slash commands. It is designed to improve the agent's judgment while it performs the user's actual task.
@@ -123,6 +128,35 @@ A more ownable direction should draw from things competitors cannot casually inh
 The goal is not novelty for novelty's sake. The goal is **specificity with coherence**.
 
 ## A few important principles
+
+### Ownable acts, not only critiques
+
+When the user has asked for modification and the runtime can edit the work, Ownable should not stop after saying that an image or section is weak.
+
+For every major section and visible image/media moment in scope, the agent makes an explicit art-direction decision. A weak photo can be reframed, cleaned, replaced with a stronger real source, regenerated in a suitable medium, or removed. A weak structural block can be refined, regrouped, reordered, merged, split, replaced, or removed.
+
+The goal is **not maximum change**. The goal is the least destructive intervention that solves the real problem and improves the whole experience.
+
+### Asset intervention ladder
+
+A useful default decision order is:
+
+1. keep;
+2. reframe;
+3. transform;
+4. replace with a stronger real asset;
+5. generate a better-fitting asset;
+6. remove the image.
+
+The ladder is not mechanical. Proof-sensitive moments prefer verified real imagery. Illustration or generated photography is used only when truthful for the role.
+
+When web access is available, the agent may search for stronger real imagery. For production use, web visibility alone is not permission: prefer official, owned, appropriately licensed, public-domain, or otherwise approved assets.
+
+### Structural surgery and ordering
+
+Ownable may reorder or regroup sections, tabs, navigation items, and content groups when the current sequence is weak. It may merge two sections serving the same job, split an overloaded one, or replace an entire section concept when polishing the existing shell would preserve the wrong structure.
+
+Required content, routes, functionality, legal/safety material, and other brief constraints remain binding. In task-oriented products, usability and native expectations outrank storytelling.
 
 ### Every section earns its place
 
@@ -205,7 +239,7 @@ ownable-design/
 
 Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
 
-Current release: **1.2.0**.
+Current release: **1.3.0**.
 
 ## Contributing
 
