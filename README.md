@@ -6,7 +6,7 @@
 
 A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
 
-[![Version](https://img.shields.io/badge/version-1.3.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.4.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -32,13 +32,14 @@ Ownable pushes the agent to mine the subject itself before reaching for template
 - **Logo-swap / ownability test** — catch art direction that is polished but generic.
 - **Cultural specificity without costume** — use real materials, rituals, language, craft, places, objects, archives, and history instead of token “heritage” motifs.
 - **Content-led composition** — let the real content, evidence, imagery, task, and hierarchy determine form instead of pouring everything into predetermined section shells.
-- **Active art-direction intervention** — inspect every major section and visible image/media moment in scope, then keep, fix, replace, restructure, or remove what the experience actually needs.
+- **Active art-direction intervention** — inspect every major section, visible image/media moment, and meaningful motion/interaction moment in scope, then keep, fix, replace, restructure, add, simplify, or remove what the experience actually needs.
 - **Root-cause diagnosis** — fix the real structural, content, proof, sequencing, asset, or concept problem instead of decorating the symptom.
 - **Structural economy** — every section, page, and major screen must earn its place.
 - **Structural surgery and ordering** — reorder, regroup, merge, split, replace, or remove sections, tabs, navigation items, and content groups when the hierarchy or flow genuinely improves.
 - **Purpose-first assets** — never invent a section just to use an available image.
 - **Why this? Why here?** — every important image must justify both selection and placement.
 - **Asset intervention ladder** — keep, reframe, transform, replace with a stronger real asset, generate, or remove according to the actual problem.
+- **Motion intervention ladder** — keep, retarget/resequence, simplify, replace, add, or remove animation according to its real role.
 - **Web-sourced real imagery when appropriate** — proactively find better real assets when needed, while preserving provenance, truth, and usage rights.
 - **Image uniqueness** — avoid exact and perceptual repetition unless reuse has a real reason.
 - **Asset language** — treat photography, illustration, 3D, video, cutouts, details, and responsive variants as one visual system.
@@ -98,7 +99,7 @@ Use Ownable while designing this website. Mine the subject before choosing a vis
 For an existing design:
 
 ```text
-Use Ownable to actively improve the art direction, not just critique it. Keep the brief and required content intact, audit every major section and visible image/media moment in scope, replace or remove weak imagery, merge or replace redundant sections, reorder structure when the flow improves, and run the logo-swap test before finalizing.
+Use Ownable to actively improve the art direction, not just critique it. Keep the brief and required content intact, audit every major section, visible image/media moment, and meaningful motion/interaction moment in scope; replace or remove weak imagery; simplify, replace, add, or remove motion where needed; merge or replace redundant sections; reorder structure when the flow improves; and run the logo-swap test before finalizing.
 ```
 
 Ownable does not require special slash commands. It is designed to improve the agent's judgment while it performs the user's actual task.
@@ -151,6 +152,29 @@ A useful default decision order is:
 The ladder is not mechanical. Proof-sensitive moments prefer verified real imagery. Illustration or generated photography is used only when truthful for the role.
 
 When web access is available, the agent may search for stronger real imagery. For production use, web visibility alone is not permission: prefer official, owned, appropriately licensed, public-domain, or otherwise approved assets.
+
+### Motion is art direction too
+
+Ownable treats animation and interaction as another authored material, not as automatic polish.
+
+The agent may add, remove, simplify, replace, or redirect motion when doing so improves identity, hierarchy, explanation, continuity, pacing, feedback, or a genuinely earned signature moment.
+
+A useful motion intervention ladder is:
+
+1. keep;
+2. retarget or resequence;
+3. simplify;
+4. replace;
+5. add;
+6. remove.
+
+Every meaningful motion moment should answer:
+
+- **Why this motion?**
+- **Why this element?**
+- **Why now?**
+
+Ownable decides whether the motion belongs and what conceptual role it serves. Emil Kowalski skills remain authoritative for the actual craft of motion — timing, easing, springs, gestures, interruptibility, origins, reduced motion, and related mechanics.
 
 ### Structural surgery and ordering
 
@@ -239,7 +263,7 @@ ownable-design/
 
 Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
 
-Current release: **1.3.0**.
+Current release: **1.4.0**.
 
 ## Contributing
 

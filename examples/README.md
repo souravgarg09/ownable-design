@@ -90,6 +90,24 @@ For evidence-bearing content — the actual performer, product, venue, facility,
 
 **Ownable response:** inspect priority and journey. Move proof earlier if belief is blocking action, regroup related tabs, promote the most-used or most-important view, delay detail until context exists, and reorder sections when the new sequence improves comprehension or decision-making. Preserve required routes, deep links, semantics, legal content, and native/task expectations.
 
+## Generic animation everywhere
+
+**Generic response:** add the same fade-up reveal to every section, animate every card on scroll, and call the result premium.
+
+**Ownable response:** audit what motion is actually doing. Keep transitions that clarify hierarchy or continuity, simplify repeated spectacle, remove animation from moments that should feel immediate or quiet, and reserve stronger motion for places where the subject or narrative genuinely benefits from it.
+
+## Weak signature animation
+
+**Generic response:** keep a technically impressive WebGL, parallax, marquee, or cursor effect because it looks expensive.
+
+**Ownable response:** ask whether the motion could be transplanted unchanged to an unrelated brand. If yes, replace or retarget it around something subject-specific — a material behavior, product mechanism, performance rhythm, craft process, spatial cue, data behavior, or another truthful characteristic. If no meaningful role exists, remove it.
+
+## Missing motion
+
+**Generic response:** leave an important transformation, process, or state relationship static even when movement would make it substantially clearer.
+
+**Ownable response:** add motion when it can explain spatial continuity, state change, process, comparison, sequence, or narrative progression more clearly than a static treatment. Ownable defines the role; Emil governs the animation mechanics when available.
+
 ## Existing brand system
 
 **Generic response:** replace the visual system because a more fashionable one looks better.

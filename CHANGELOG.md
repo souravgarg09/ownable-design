@@ -2,6 +2,18 @@
 
 All notable changes to Ownable are documented here.
 
+## 1.4.0 — 2026-09-20
+
+- promoted motion and interaction to first-class Ownable art-direction materials alongside imagery and structure;
+- expanded active intervention to audit meaningful motion/interaction moments in scope, not only sections and imagery;
+- added a motion intervention ladder: keep → retarget/resequence → simplify → replace → add → remove;
+- explicitly allows Ownable to add, remove, simplify, replace, or conceptually redesign animations/interactions when they strengthen identity, hierarchy, explanation, continuity, pacing, feedback, narrative, or an earned signature moment;
+- allows proactive creation/specification of motion forms such as animated illustration, image sequences, kinetic type, SVG/canvas motion, 3D motion, state transitions, or scroll-linked storytelling when conceptually justified;
+- added the motion placement test: “why this motion, on this element, at this moment?”;
+- explicitly rejects animation quotas and generic reveal/preset motion as automatic premium treatment;
+- preserves specialist boundaries: Ownable owns motion intent and conceptual fit, while Emil Kowalski skills own timing, easing, springs, gestures, interruptibility, transform origins, reduced-motion behavior, and motion craft;
+- keeps Taste and Impeccable authoritative for their broader visual, UX, system, accessibility, and implementation domains.
+
 ## 1.3.0 — 2026-09-20
 
 - added active art-direction intervention: on modification tasks, Ownable now audits every major section and visible image/media moment in scope instead of waiting for the user to identify each problem;
