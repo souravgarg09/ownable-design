@@ -1,31 +1,40 @@
 ---
 name: Rule proposal
-about: Propose a durable art-direction rule or refinement
+about: Propose a focused Ownable behavior change
 title: "[Rule] "
 labels: enhancement
-assignees: ""
 ---
 
-## Proposed rule
+## Behavior problem
 
-State the rule as clearly and compactly as possible.
+What agent behavior is currently weak or missing?
 
-## Failure mode
+## Concrete example
 
-What repeatable design problem does this prevent?
+Show a before/after scenario.
 
-## Why Ownable should own it
+## Why existing rules are not enough
 
-Why is this specifically about subject-specific art direction, asset judgment, structural economy, truthful visual storytelling, or ownability?
+Which current rule(s) did you check?
 
-## Specialist overlap check
+## Best home
 
-Could Taste Skill, Emil Kowalski Skills, Impeccable, or another specialist already own this better?
+- [ ] Merge/refine an existing core rule
+- [ ] Add/change a conditional reference
+- [ ] New core rule is genuinely necessary
 
-## Examples
+## Companion overlap
 
-Show at least one context where the rule helps and one where it should not apply.
+Could Taste, Emil Kowalski skills, Impeccable, or another specialist already own this better?
 
-## Portability
+## Ownability value
 
-Explain why this is a durable principle rather than a framework-specific recipe or temporary trend.
+How does this make the work more subject-specific, less templated, or more actionable?
+
+## Anti-default check
+
+Could this proposal accidentally create a new universal style/default?
+
+## Scope/truth impact
+
+How does it preserve the brief, product truth, accessibility, safety, and required behavior?

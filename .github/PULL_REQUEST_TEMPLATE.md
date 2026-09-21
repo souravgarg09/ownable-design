@@ -1,15 +1,17 @@
-## What does this change?
+## What changed
 
-Describe the problem and the smallest useful change.
+Describe the behavioral change.
 
-## Ownable fit
+## Why it belongs in Ownable
 
-- [ ] This improves subject-specific art direction or ownability.
-- [ ] It does not turn Ownable into a generic frontend handbook.
-- [ ] It preserves explicit briefs, verified truth, and required functionality.
-- [ ] I checked for overlap with Taste Skill, Emil Kowalski Skills, Impeccable, or another specialist.
-- [ ] Behavior-changing edits update the changelog/version when appropriate.
+Explain the subject-specific art-direction / ownability problem.
 
-## Evidence / examples
+## Architecture check
 
-Add a concise example, before/after rule wording, or reproduction where useful.
+- [ ] I checked whether this could merge into an existing rule.
+- [ ] I checked whether it belongs in a conditional reference instead of core SKILL.md.
+- [ ] I checked overlap with Taste, Emil Kowalski skills, and Impeccable.
+- [ ] I did not add a fixed style/category preset.
+- [ ] I preserved brief, truth, scope, accessibility, and safety guards.
+- [ ] I updated README / examples / changelog when public behavior changed.
+- [ ] The change reduces template/default behavior rather than creating a new default.

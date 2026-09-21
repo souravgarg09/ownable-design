@@ -4,9 +4,9 @@
 
 **Art direction that makes AI design hard to logo-swap.**
 
-A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
+A portable Agent Skill for subject-specific visual-world discovery, art direction, active intervention, and rendered verification.
 
-[![Version](https://img.shields.io/badge/version-1.6.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.0.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -14,320 +14,195 @@ A portable Agent Skill for subject-specific, concept-led, truthful digital art d
 
 ## Why Ownable exists
 
-AI can make a polished interface quickly. The harder problem is making the result feel like it could only belong to **this** brand, product, person, place, or story.
+AI is good at producing polished interfaces. It is much worse at deciding **which visual world actually belongs to this subject** rather than to any competent competitor.
 
-Ownable focuses on that problem.
+Ownable addresses that problem from direction selection through execution.
 
-Its core test is simple:
+Its core test:
 
 > If you can swap the logo and copy for an unrelated competitor and most of the design still works, the art direction is not finished.
 
-Ownable pushes the agent to mine the subject itself before reaching for templates or trends, then turn that evidence into a Creative North Star, recognizable identity carriers, purposeful structure, coherent assets, truthful proof, and subject-specific signature moments.
+## What 2.0 changes
 
-## What Ownable adds
+Ownable 2.0 is a consolidation release, not a bigger rule pile.
 
-- **Subject before moodboard** — derive visual vocabulary from the real product, people, place, materials, process, culture, history, and proof.
-- **Creative North Star** — define a project-specific thesis that actually changes the work.
-- **Distributed identity carriers** — create recognition beyond the logo and carry it past the hero into quieter surfaces through recurring but evolving cues.
-- **Logo-swap / ownability test** — catch art direction that is polished but generic.
-- **Cultural specificity without costume** — use real materials, rituals, language, craft, places, objects, archives, and history instead of token “heritage” motifs.
-- **Content-led composition** — let the real content, evidence, imagery, task, and hierarchy determine form instead of pouring everything into predetermined section shells.
-- **Action-first art direction** — for build/improve/redesign tasks, diagnosis chooses the fix; the expected output is a changed artifact, not a critique report.
-- **Active art-direction intervention** — inspect every major section and meaningful expressive medium in scope, then keep, refine, transform, replace, add, simplify, regroup, or remove what the experience actually needs.
-- **Rendered-evidence requirement** — visually inspect the actual result when rendering/preview is available; code correctness is not proof of visual quality.
-- **Capability-triggered execution** — generate, edit, source, cut out, composite, implement, reorder, merge, animate, or otherwise perform justified fixes when the environment can do them.
-- **Visitor-eye finish pass** — prioritize first impression, structure, major imagery/proof, hierarchy, pacing, and coherence before micro-polish, then verify the finished experience as a first-time visitor.
-- **Root-cause diagnosis** — fix the real structural, content, proof, sequencing, asset, or concept problem instead of decorating the symptom.
-- **Structural economy** — every section, page, and major screen must earn its place.
-- **Structural surgery and ordering** — reorder, regroup, merge, split, replace, or remove sections, tabs, navigation items, and content groups when the hierarchy or flow genuinely improves.
-- **Purpose-first assets** — never invent a section just to use an available image.
-- **Why this? Why here?** — every important image must justify both selection and placement.
-- **Asset intervention ladder** — keep, reframe, transform, replace with a stronger real asset, generate, or remove according to the actual problem.
-- **Medium-agnostic intervention** — typography, color/material, content framing, imagery, iconography, data/diagrams, motion, interaction, video, 3D, sound, backgrounds, proof presentation, and responsive treatment are all valid art-direction materials.
-- **Representation before decoration** — choose prose, image, diagram, chart, map, timeline, video, 3D, sound, or interaction because it communicates the job best, not because the template expects it.
-- **Responsive re-art-direction** — desktop, tablet, and mobile may use different crops, media, sequencing, interaction, and emphasis while preserving the same identity.
-- **Motion intervention ladder** — keep, retarget/resequence, simplify, replace, add, or remove animation according to its real role.
-- **Web-sourced real imagery when appropriate** — proactively find better real assets when needed, while preserving provenance, truth, and usage rights.
-- **Image uniqueness** — avoid exact and perceptual repetition unless reuse has a real reason.
-- **Asset language** — treat photography, illustration, 3D, video, cutouts, details, and responsive variants as one visual system.
-- **Concept-led asset commissioning** — the supplied asset folder is not the ceiling; create, source, or clearly request missing assets that a strong concept genuinely needs.
-- **Bespoke illustrative generation** — proactively create hand-drawn, painted, etched, collage, textured editorial, mixed-media, stylized 3D, or other subject-appropriate visuals when they genuinely earn the role.
-- **Capability-aware asset transformation** — create cutouts, transparent assets, cleanup, reframing, relighting, compositing, and variants when the runtime can safely do so.
-- **Truth-sensitive editing** — never turn visual polish into false product, medical, architectural, credential, or proof claims.
-- **Real proof over decorative prestige** — trust should come from evidence, not just luxury styling.
-- **Cross-output fingerprint checks** — avoid recognizable reuse of the same hero, nav, palette, card grammar, gallery, footer, or signature trick across unrelated projects.
+The previous 46-rule flat list has been reorganized into five phases:
+
+1. **Ground** — subject, truth, constraints, North Star.
+2. **Discover** — global reference discovery and visual-language selection.
+3. **Architect** — content, structure, sequence, representation.
+4. **Produce** — active, capability-aware intervention.
+5. **Verify** — rendered evidence and first-time-visitor finishing.
+
+The core skill is shorter and delegates detailed workflows to conditional references.
+
+## Visual-language discovery
+
+Ownable does not contain a fixed list of “best UI styles.”
+
+Glassmorphism, bento, editorial, neo-brutalism, skeuomorphism, minimalism, futurism, and similar labels are **vocabulary**, not presets.
+
+A direction can combine dimensions when coherent:
+
+- bento-like structure + documentary photography;
+- editorial composition + restrained translucent surfaces;
+- tactile material cues + utilitarian typography;
+- cinematic imagery + quiet product UI.
+
+Or it can create a project-specific visual language with no useful trend name at all.
+
+The agent searches globally across digital work and adjacent disciplines—editorial, architecture, packaging, industrial design, fashion, signage, maps, archives, film, photography, physical materials, and more—then chooses by fit rather than fashion.
+
+See [direction discovery](./skills/ownable-design/reference/direction-discovery.md).
+
+## Action-first behavior
+
+For build/redesign/improvement tasks:
+
+**audit is diagnosis; the fix is the deliverable.**
+
+Ownable expects the agent to use available capabilities rather than stop at recommendations.
+
+Examples:
+- source a stronger legitimate real image;
+- generate an earned watercolor, pencil, editorial, photographic, diagrammatic, or 3D asset;
+- remove a background and create a true transparent cutout;
+- clean/reframe/relight/composite imagery truthfully;
+- merge or replace redundant sections;
+- reorder navigation/tabs/content;
+- change the representational medium;
+- add, fix, simplify, or remove an interaction;
+- re-art-direct mobile instead of merely shrinking desktop;
+- render the result and inspect what actually shipped.
+
+See [intervention playbook](./skills/ownable-design/reference/intervention-playbook.md).
 
 ## Install
 
-### Any Agent Skills-compatible tool
+Any Agent Skills-compatible tool:
 
-```bash
-npx skills@latest add souravgarg09/ownable-design
-```
+    npx skills@latest add souravgarg09/ownable-design
 
-Install only Ownable explicitly:
+Install only Ownable:
 
-```bash
-npx skills@latest add souravgarg09/ownable-design --skill ownable-design
-```
+    npx skills@latest add souravgarg09/ownable-design --skill ownable-design
 
-### Codex — user-wide on this computer
+Codex, user-wide:
 
-Use this when you want Ownable available across your Codex projects:
+    npx skills@latest add souravgarg09/ownable-design --skill ownable-design -g -a codex -y
 
-```bash
-npx skills@latest add souravgarg09/ownable-design --skill ownable-design -g -a codex -y
-```
+Update an existing global install:
 
-### Codex — current project only
-
-Run this from the project folder:
-
-```bash
-npx skills@latest add souravgarg09/ownable-design --skill ownable-design -a codex -y
-```
-
-The portable skill itself lives at:
-
-```text
-skills/ownable-design/SKILL.md
-```
-
-> Ownable is an **Agent Skill**, not a ChatGPT account preference. Local installation applies to supported coding/agent environments on that machine. In a normal ChatGPT conversation, provide the skill file or use an environment that supports Agent Skills.
+    npx skills update ownable-design -g -y
 
 ## Use it
 
-Once installed, ask your agent to use Ownable as the art-direction layer for the work:
+For a new website:
 
-```text
-Use Ownable while designing this website. Mine the subject before choosing a visual direction, make every section and asset earn its place, and run the logo-swap test before finalizing.
-```
+> Use Ownable to discover and build a subject-specific visual world. Do not start from a named UI style. Research the subject and reference universe, choose the strongest-fit direction, execute it, and verify the rendered result.
 
-For an existing design:
+For an existing site:
 
-```text
-Use Ownable to actively improve the art direction and execute the fixes, not just critique it. Keep the brief and required content intact, audit every major section and meaningful expressive medium in scope; replace or remove weak imagery; refine typography/color/material when needed; choose better diagrams/data/video/3D/interaction representations when they communicate better; simplify, replace, add, or remove motion where needed; re-art-direct responsive contexts when necessary; merge or replace redundant sections; reorder structure when the flow improves; and run the logo-swap test before finalizing.
-```
+> Use Ownable to improve this site action-first. Preserve required truth/functionality, diagnose the highest-impact art-direction problems, execute the fixes with available tools, re-render, and finish from a first-time visitor perspective.
 
-Ownable does not require special slash commands. It is designed to improve the agent's judgment while it performs the user's actual task.
+Ownable does not require special slash commands.
 
 ## Companion stack
 
-Ownable is intentionally complementary rather than a replacement for broader specialist skills.
+Ownable is complementary to specialist skills:
 
-When these are installed and applicable, they remain authoritative in their domains:
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — frontend taste, anti-slop, composition, design dials, scoped visual heuristics.
+- [Emil Kowalski Skills](https://github.com/emilkowalski/skills) — motion and interaction craft.
+- [Impeccable](https://github.com/pbakaus/impeccable) — product/design-world methodology, refinement vs redesign, design systems, UX, accessibility, implementation craft, responsive/technical discipline, progressive enhancement, verification, and QA.
 
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — frontend taste, anti-slop, composition, design dials, and its scoped frontend heuristics.
-- [Emil Kowalski Skills](https://github.com/emilkowalski/skills) — motion, interaction feel, timing, easing, gestures, springs, and animation craft.
-- [Impeccable](https://github.com/pbakaus/impeccable) — product/design-world methodology, refinement vs redesign, design systems, accessibility, implementation craft, states, responsive/technical discipline, progressive enhancement, and QA.
+When installed and applicable, those skills remain authoritative in their domains.
 
-Ownable adds the **subject-specific art-direction and ownability layer**.
+Ownable adds the **subject-specific visual-world, reference-discovery, medium-choice, intervention, and ownability layer**.
 
-None of those companion skills are required dependencies. Ownable works standalone.
+## Core principles
 
-## The logo-swap test
+### Subject before style
 
-Imagine removing the real logo and brand name from a design and replacing them with a competitor's.
+Mine the real product, people, place, process, materials, history, culture, artifacts, behavior, and proof before reaching for a trend.
 
-If the experience still feels completely natural, the design may be category-correct but not brand-specific.
+### Style is vocabulary, not identity
 
-A more ownable direction should draw from things competitors cannot casually inherit: a physical material, architectural rhythm, product mechanism, cultural context, photographic behavior, founder history, local environment, making process, signature object, archive, data pattern, or another truthful characteristic of the subject.
+A label such as glass, bento, editorial, brutalist, minimal, or skeuomorphic cannot be the Creative North Star by itself.
 
-The goal is not novelty for novelty's sake. The goal is **specificity with coherence**.
+### References are a universe, not a template library
 
-## A few important principles
+Search beyond UI galleries. The right direction may come from an archive, a building, a machine, packaging, an instrument, a map, an exhibition, or an audience's familiar visual culture.
 
-### Audit is diagnosis; the fix is the deliverable
+### Content shapes composition
 
-For create/build/redesign/improve/fix/polish tasks, Ownable defaults to action.
+Do not pour every content type into the same card grid or split section.
 
-The operating loop is:
+### Every structural unit earns its place
 
-**understand → inspect the rendered experience → prioritize → execute fixes → render again → fix remaining high-impact issues → finish**
+Merge, split, reorder, replace, or remove optional structure when the experience improves.
 
-If image generation is available and an earned watercolor or pencil illustration is the right solution, generate it. If image editing can create the needed real cutout, remove the background. If the structure is wrong, change the structure. If motion is weak, fix or remove it. If a better real image is needed and sourcing is available, find an appropriate usable source.
+### Medium choice is part of art direction
 
-Do not send work back to the user merely because it would require another tool the agent already has.
+Text, image, illustration, diagram, chart, video, 3D, motion, interaction, sound, or silence are choices—not quotas.
 
-### Visual claims need visual evidence
+### Weak assets are not sacred
 
-Code can be valid while the page still looks bad. When preview/render/screenshot capability exists, Ownable inspects the actual built result.
+Keep, reframe, transform, replace, generate, or remove based on what the concept actually needs.
 
-For substantial web work, representative desktop and mobile viewing is the normal minimum when both are in scope. This is not a second QA system; specialist skills can own the detailed verification mechanics.
+### Truth outranks decorative prestige
 
-### Work in impact order
+Proof-sensitive moments use verified evidence. Generated atmosphere must not impersonate documentary proof.
 
-Ownable fixes the big experience before the tiny details:
+### Visual claims require visual evidence
 
-1. concept, first impression, structure, task/decision path, truth;
-2. hero/primary media, major imagery/proof, hierarchy, sequencing, representation;
-3. typography/material, responsive art direction, interaction/motion concept;
-4. micro-polish.
+Code correctness is not proof that a page looks good. When preview/rendering exists, inspect the built experience.
 
-The final pass is from the perspective of a first-time visitor: does the experience immediately feel coherent, credible, specific, intentional, engaging, and finished?
+### First-time visitor beats implementer bias
 
-### Ownable acts, not only critiques
-
-When the user has asked for modification and the runtime can edit the work, Ownable should not stop after saying that an image or section is weak.
-
-For every major section and visible image/media moment in scope, the agent makes an explicit art-direction decision. A weak photo can be reframed, cleaned, replaced with a stronger real source, regenerated in a suitable medium, or removed. A weak structural block can be refined, regrouped, reordered, merged, split, replaced, or removed.
-
-The goal is **not maximum change**. The goal is the least destructive intervention that solves the real problem and improves the whole experience.
-
-### Asset intervention ladder
-
-A useful default decision order is:
-
-1. keep;
-2. reframe;
-3. transform;
-4. replace with a stronger real asset;
-5. generate a better-fitting asset;
-6. remove the image.
-
-The ladder is not mechanical. Proof-sensitive moments prefer verified real imagery. Illustration or generated photography is used only when truthful for the role.
-
-When web access is available, the agent may search for stronger real imagery. For production use, web visibility alone is not permission: prefer official, owned, appropriately licensed, public-domain, or otherwise approved assets.
-
-### Ownable is medium-agnostic
-
-Ownable does not treat imagery and animation as special exceptions. Anything that shapes the experience can be art-directed: typography, color/material, content framing, images, illustration, iconography, diagrams, data visualization, motion, interaction, video, 3D, sound, backgrounds, proof presentation, and responsive treatment.
-
-The test is consistent:
-
-- **Why this medium?**
-- **Why here?**
-- **Why this treatment?**
-
-The agent may change the medium itself when another form communicates better. A dense explanation may become a diagram; a process may become a timeline or interactive explainer; a generic video may become a decisive still; a 3D object may disappear if it adds spectacle but no meaning.
-
-### Representation before decoration
-
-The goal is not to maximize media richness. The goal is to choose the clearest and most ownable representation for the job.
-
-Charts, maps, timelines, diagrams, and other information graphics must represent real information. They must not invent precision, relationships, geography, or causality merely to look sophisticated.
-
-### Responsive re-art-direction
-
-Ownable may deliberately change crop, asset, media type, sequence, interaction, intensity, or emphasis across contexts. A desktop cinematic moment does not have to survive unchanged on mobile.
-
-Responsive variation must preserve required content, functionality, truth, and identity. Impeccable governs the technical responsive implementation; Ownable governs the art-direction decision.
-
-### Motion is art direction too
-
-Ownable treats animation and interaction as another authored material, not as automatic polish.
-
-The agent may add, remove, simplify, replace, or redirect motion when doing so improves identity, hierarchy, explanation, continuity, pacing, feedback, or a genuinely earned signature moment.
-
-A useful motion intervention ladder is:
-
-1. keep;
-2. retarget or resequence;
-3. simplify;
-4. replace;
-5. add;
-6. remove.
-
-Every meaningful motion moment should answer:
-
-- **Why this motion?**
-- **Why this element?**
-- **Why now?**
-
-Ownable decides whether the motion belongs and what conceptual role it serves. Emil Kowalski skills remain authoritative for the actual craft of motion — timing, easing, springs, gestures, interruptibility, origins, reduced motion, and related mechanics.
-
-### Structural surgery and ordering
-
-Ownable may reorder or regroup sections, tabs, navigation items, and content groups when the current sequence is weak. It may merge two sections serving the same job, split an overloaded one, or replace an entire section concept when polishing the existing shell would preserve the wrong structure.
-
-Required content, routes, functionality, legal/safety material, and other brief constraints remain binding. In task-oriented products, usability and native expectations outrank storytelling.
-
-### Every section earns its place
-
-A page should not grow because templates usually contain another section, because the page looks short, or because an unused asset exists. Each major block should add information, proof, task value, interaction, narrative progression, atmosphere, or conversion support.
-
-Required content from the brief is protected: Ownable strengthens or reframes it instead of silently deleting it.
-
-### Purpose first; asset second
-
-Do not create a section just to use a photograph, illustration, video, 3D object, or other supplied asset.
-
-If an asset does not strengthen a meaningful part of the experience, leave it out.
-
-### Every important image answers “why this?” and “why here?”
-
-A visually attractive image is not automatically relevant. The subject matter, evidence, emotion, context, and relationship to adjacent content matter more than palette matching.
-
-### Content should shape composition
-
-Do not start with a reusable section formula and pour every kind of content into it. The actual content should influence the form: copy length, proof, imagery, product behavior, hierarchy, task, and narrative all matter.
-
-A repeated layout is useful when the content really has the same job. Repeating it because it is convenient is template behavior.
-
-### The supplied asset folder is not the ceiling
-
-Ownable does not require the agent to accept an incomplete asset pack as the limit of the concept. If a meaningful section needs a missing cutout, detail, contextual scene, diagram, illustration, texture, crop, or other visual role, the agent should create it when safe, source a truthful real asset when authenticity matters, or specify/request it clearly.
-
-The inverse rule still applies: do not commission new visuals just because empty space exists. Every commissioned asset must earn its role.
-
-### Bespoke illustration is a first-class tool, not filler
-
-Ownable can proactively use AI-generated or agent-created non-photographic imagery when the concept calls for it: hand-drawn work, painting-like treatments, etching, collage, textured editorial art, diagrammatic visuals, stylized 3D, and other authored directions.
-
-The test is not “would this look beautiful?” It is the same test applied to every asset:
-
-- **Why this?**
-- **Why here?**
-- What does this visual communicate that the surrounding content needs?
-
-A stylized illustration should reinforce the subject, North Star, atmosphere, symbolism, process, memory, ritual, or narrative. It should not exist merely because a section looks empty. Proof-critical moments still use truthful documentary imagery.
-
-### Consistency is not repetition
-
-A coherent system can share typography, materials, spacing logic, hierarchy, and behavior while still changing composition and imagery as the content changes. Repeating the same card grid, crop, hero structure, or effect everywhere is not consistency.
-
-## Examples
-
-See [`examples/README.md`](./examples/README.md) for short examples of applying Ownable without turning it into a style preset.
-
-## What Ownable deliberately does not contain
-
-Ownable stays narrow on purpose. It does **not** add:
-
-- generic “cold audit” commands;
-- price tiers as design-quality rules;
-- framework-specific recipes;
-- Claude/Codex/ChatGPT/Figma-specific design philosophy;
-- duplicate motion standards already handled better by motion specialists;
-- duplicate accessibility/performance/state/QA systems;
-- generic frontend advice a competent implementation skill already knows.
-
-The value is not the number of rules. The value is a focused art-direction lens that other design and implementation skills can compose with.
+Finish by judging the actual opening impression, focal point, clarity, credibility, pacing, repetition, asset quality, transitions, action clarity, and unfinished/templated feel.
 
 ## Repository structure
 
-```text
-ownable-design/
-├── README.md
-├── LICENSE
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── examples/
-│   └── README.md
-└── skills/
-    └── ownable-design/
-        └── SKILL.md
-```
+    ownable-design/
+    ├── README.md
+    ├── LICENSE
+    ├── CHANGELOG.md
+    ├── CONTRIBUTING.md
+    ├── examples/
+    │   └── README.md
+    └── skills/
+        └── ownable-design/
+            ├── SKILL.md
+            └── reference/
+                ├── direction-discovery.md
+                └── intervention-playbook.md
 
-## Versioning
+## What Ownable deliberately does not contain
 
-Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
+Ownable does not maintain:
 
-Current release: **1.6.0**.
+- a fixed catalog of approved UI styles;
+- price tiers as design-quality rules;
+- generic cold-audit commands;
+- framework-specific frontend recipes;
+- platform-specific ChatGPT/Claude/Codex/Figma philosophy;
+- duplicate motion rules already owned by motion specialists;
+- duplicate accessibility/performance/state/QA systems;
+- generic implementation guidance better handled by specialist skills.
+
+## Examples
+
+See [examples/README.md](./examples/README.md).
 
 ## Contributing
 
-Contributions are welcome when they make Ownable sharper without turning it into a generic mega-skill. See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+Contributions are welcome when they sharpen subject-specific art direction without turning Ownable into a generic mega-skill. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Versioning
+
+Ownable follows semantic versioning.
+
+Current release: **2.0.0**.
 
 ## License
 

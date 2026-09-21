@@ -2,6 +2,27 @@
 
 All notable changes to Ownable are documented here.
 
+## 2.0.0 — 2026-09-21
+
+Major architecture release.
+
+- replaced the 46-rule flat structure with a five-phase operating system: Ground → Discover → Architect → Produce → Verify;
+- added explicit visual-language discovery and best-fit direction selection rather than relying on the agent's first familiar aesthetic;
+- added global reference-universe guidance spanning digital work, subject evidence, competitors, audience culture, editorial/print, packaging, architecture/interiors, industrial/automotive design, fashion, photography, film/titles, signage/wayfinding, exhibitions, maps, archives, technical graphics, physical materials, games/performance, and other relevant disciplines;
+- added “style is vocabulary, not identity”: named aesthetics such as glass, bento, minimal, editorial, brutalist, skeuomorphic, futuristic, etc. can describe dimensions but cannot serve as the Creative North Star by themselves;
+- added visual-language decomposition across composition, typography, color/light, material, geometry/chrome, imagery/illustration, density/rhythm, information representation, motion/interaction, and responsive transformation;
+- added candidate-world exploration for open directions, with Impeccable's current direction-selection workflow taking precedence when available and a compact Ownable fallback otherwise;
+- added explicit fit-over-fashion and familiarity-bias checks;
+- added reference-abstraction-depth guidance to encourage principle translation instead of surface cloning;
+- added coherent-hybrid rules while rejecting “Frankenstyle” trend stacking;
+- preserved and consolidated content-led composition, structural economy/surgery, sequence/flow, representation choice, responsive re-art-direction, visual economy, repetition discipline, and cross-project fingerprint checks;
+- preserved action-first execution: audit is diagnosis and the changed artifact is the deliverable when tools/scope allow;
+- consolidated asset rules into a clearer source-pool/intervention model while preserving web sourcing, generation, watercolor/gouache/pencil/charcoal/ink/engraving/collage/editorial/3D possibilities, true alpha cutouts/background removal, truthful editing, responsive variants, proof/provenance guards, and image-repetition discipline;
+- preserved motion as an art-direction material while deferring motion mechanics to Emil Kowalski skills;
+- preserved rendered-evidence requirements, high-impact-first triage, first-time visitor finishing, and no-fake-capability behavior;
+- moved detailed direction discovery and intervention ladders into conditional reference files so the core skill stays readable and composable;
+- updated contributing and GitHub templates to prefer rule consolidation, specialist deference, and anti-default behavior over rule-count growth.
+
 ## 1.6.0 — 2026-09-21
 
 - changed Ownable's default modification behavior from critique-capable to explicitly action-first: diagnosis chooses the intervention; the changed artifact is the deliverable;
