@@ -91,3 +91,22 @@ These examples show **how Ownable thinks**, not a catalog of styles to reproduce
 **Generic:** finish by tuning shadows and hover states.
 
 **Ownable:** first fix the confusing opening, weak focal point, repetitive middle, unconvincing proof, dead area, low-quality asset, abrupt transition, or generic visual fingerprint.
+
+
+## Portable image generation
+
+**Wrong:** “This would look better with a watercolor illustration. Please make one in your image tool.”
+
+**Ownable:** determine whether an image-generation capability is available in the current environment. If watercolor is truthful and conceptually earned, generate it through the best available native tool, MCP/connector, or compatible provider, inspect the result, integrate it, and judge the rendered page. The art-direction decision does not change because the provider changes.
+
+## Transparent cutout
+
+**Wrong:** fake a product/person cutout using a white background, radial mask, or rounded shape because the preferred image tool does not support alpha.
+
+**Ownable:** route the job to an available editing/matting/background-removal capability, produce real transparency, inspect fine edges and holes on the intended background, and only then ship it.
+
+## Companion stack versus standalone
+
+**With Taste + Impeccable + Emil:** Ownable chooses the subject-specific world and intervention intent; the specialists own their detailed domains.
+
+**Standalone:** Ownable loads its compact quality floor so the result still has deliberate typography, coherent system logic, functional/accessibility basics, responsive behavior, purposeful motion, anti-default checks, and bounded rendered verification without pretending to replace those specialist skills.

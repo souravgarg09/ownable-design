@@ -4,9 +4,9 @@
 
 **Art direction that makes AI design hard to logo-swap.**
 
-A portable Agent Skill for subject-specific visual-world discovery, art direction, active intervention, and rendered verification.
+A portable, capability-aware Agent Skill for subject-specific visual-world discovery, art direction, active intervention, media production, and rendered verification.
 
-[![Version](https://img.shields.io/badge/version-2.0.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.1.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -22,7 +22,17 @@ Its core test:
 
 > If you can swap the logo and copy for an unrelated competitor and most of the design still works, the art direction is not finished.
 
-## What 2.0 changes
+## What 2.1 adds
+
+Ownable now treats the runtime as a set of **capabilities rather than named vendors**. If a design needs image generation, background removal, a transparent cutout, video, 3D, web sourcing, rendering, or another intervention, the agent should use the best appropriate capability available in that environment—native tool, MCP/connector, local tool, or compatible provider.
+
+This makes the same skill usable across ChatGPT/Codex, Claude environments, Lovable, and other agents without binding the design logic to any one of them.
+
+It also adds a compact standalone quality floor for environments where Taste, Impeccable, or Emil are not installed, while preserving strict specialist precedence when they are.
+
+Ownable now incorporates complementary strengths seen in strong public frontend-design skills: explicit user/task/context fit, a visual thesis, interaction thesis when warranted, deliberate typography, stronger anti-default detection, responsive/functional hard gates, commitment after direction selection, and honest rendered verification—without copying those skills' full implementation systems.
+
+## What 2.0 changed
 
 Ownable 2.0 is a consolidation release, not a bigger rule pile.
 
@@ -76,6 +86,8 @@ Examples:
 - render the result and inspect what actually shipped.
 
 See [intervention playbook](./skills/ownable-design/reference/intervention-playbook.md).
+
+For portable tooling behavior, see [capability routing](./skills/ownable-design/reference/capability-routing.md). For environments missing specialist companions, see [standalone quality floor](./skills/ownable-design/reference/standalone-quality-floor.md).
 
 ## Install
 
@@ -175,7 +187,9 @@ Finish by judging the actual opening impression, focal point, clarity, credibili
             ├── SKILL.md
             └── reference/
                 ├── direction-discovery.md
-                └── intervention-playbook.md
+                ├── intervention-playbook.md
+                ├── capability-routing.md
+                └── standalone-quality-floor.md
 
 ## What Ownable deliberately does not contain
 
@@ -202,7 +216,7 @@ Contributions are welcome when they sharpen subject-specific art direction witho
 
 Ownable follows semantic versioning.
 
-Current release: **2.0.0**.
+Current release: **2.1.0**.
 
 ## License
 

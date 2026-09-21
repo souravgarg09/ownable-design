@@ -2,6 +2,8 @@
 
 Load this reference for active build, redesign, improvement, fix, polish, or transformation work.
 
+Also load [capability-routing.md](capability-routing.md) whenever tool/media capability choice matters.
+
 The purpose is to turn art-direction judgment into changes. Do not use it to expand scope beyond the brief.
 
 ## 1. Default loop
@@ -158,7 +160,13 @@ A local fix is not a win if it creates:
 
 Judge every intervention in the context of the entire experience.
 
-## 11. Capability honesty
+## 11. Output inspection
+
+Generated or edited assets must be inspected, not trusted from the prompt or tool success state. Check semantic correctness, crop, edge quality, actual transparency when required, artifacts, coherence, truth boundary, and behavior in the real layout.
+
+If a transparent cutout is required, verify alpha rather than assuming a white/checkerboard-looking background is transparent.
+
+## 12. Capability honesty
 
 If a needed capability is unavailable:
 - continue with every useful intervention that is possible;

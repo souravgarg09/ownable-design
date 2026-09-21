@@ -87,9 +87,13 @@ Fallback when that workflow is unavailable:
 
 Different means different visual logic, not the same hero with different colors.
 
+After selection, write one visual thesis and, when interaction matters, one interaction thesis. Carry the selected world's strongest logic forward instead of averaging it with rejected candidates.
+
 ## 4. Fit gate
 
 A direction earns selection when it survives these questions:
+
+- **User/task fit:** does it help the intended audience understand, decide, operate, read, or experience what this surface is for?
 
 - **Subject resonance:** does it arise from something specific and truthful?
 - **Audience/use context:** does it fit who uses it, where, and why?
@@ -137,7 +141,13 @@ Use this test:
 
 If not, simplify.
 
-## 8. Compare visually when words are insufficient
+## 8. Commit without sanding off the direction
+
+Once the direction wins, do not retreat to a generic component kit whenever implementation becomes inconvenient. Translate the world into quieter and louder moments while preserving its grammar.
+
+If the direction cannot survive ordinary content, responsive contexts, or real controls without losing itself, it was not a complete direction.
+
+## 9. Compare visually when words are insufficient
 
 When multiple directions remain plausible and visual prototyping is available, compare representative first-view or key-surface comps rather than choosing entirely from prose.
 

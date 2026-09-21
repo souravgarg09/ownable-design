@@ -2,6 +2,20 @@
 
 All notable changes to Ownable are documented here.
 
+## 2.1.0 — 2026-09-21
+
+- made Ownable explicitly provider-neutral and capability-aware across agent environments;
+- added capability discovery/routing for code editing, rendering, screenshots, web/reference search, real-asset retrieval, image generation, image editing/matting/background removal, diagrams, motion, video, 3D, audio, MCP/connectors, and local tools;
+- added portable image-generation behavior so Ownable uses an available native tool, MCP/connector, or compatible provider rather than depending on a named service;
+- added real-alpha/background-removal guidance and output validation, including edge/holes checks and fallback to another editing/matting capability when a generator cannot produce correct transparency;
+- added generated/edited asset inspection as a required step rather than trusting successful tool calls or prompts;
+- added a standalone quality floor for environments where Taste, Impeccable, or Emil are partially or wholly unavailable;
+- strengthened companion mode so Taste owns detailed anti-slop/composition heuristics, Impeccable owns product/system/execution/verification methodology, and Emil owns motion mechanics;
+- integrated complementary principles from strong public frontend-design skills: explicit user/task/context fit, visual thesis, optional interaction thesis, deliberate typography, functional/accessibility hard gates in standalone mode, stronger anti-default checks, bounded rendered verification, and commitment after direction selection;
+- strengthened the anti-default check against common generated-design fingerprints while preserving that any pattern can be valid when the brief truly earns it;
+- added a commitment rule preventing selected visual directions from being averaged back into generic “premium” design during implementation;
+- kept provider names out of core design logic; named tools/services may appear only as interchangeable portability examples.
+
 ## 2.0.0 — 2026-09-21
 
 Major architecture release.

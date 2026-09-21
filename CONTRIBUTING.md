@@ -12,8 +12,10 @@ Ask these questions:
 2. Is the behavior already covered by an existing rule that should be clarified instead?
 3. Would the detail fit better in a conditional reference file?
 4. Is it already owned better by Taste, Emil Kowalski skills, Impeccable, or another specialist?
-5. Does the proposal improve agent behavior in a concrete scenario?
-6. Does it reduce template/default behavior rather than create a new default?
+5. Is this a design principle, or merely a provider-specific tool recipe that belongs in capability routing?
+6. Does the behavior remain valid if the image/browser/coding provider changes?
+7. Does the proposal improve agent behavior in a concrete scenario?
+8. Does it reduce template/default behavior rather than create a new default?
 
 Prefer **merge/refine** over adding another flat rule.
 
