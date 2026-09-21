@@ -8,7 +8,7 @@ assignees: ""
 
 ## What happened?
 
-Describe the behavior you observed.
+Describe the observed behavior.
 
 ## Expected behavior
 
@@ -18,13 +18,23 @@ What should Ownable have guided the agent to do instead?
 
 - Agent/tool:
 - Ownable version:
-- Companion skills loaded (if any):
-- Relevant brief or task:
+- Scope mode (new / replace / extend / refine):
+- Companion skills loaded:
+- Capabilities available:
+- Relevant brief/task:
 
-## Minimal example
+## Minimal reproduction
 
 Include the smallest prompt, artifact, or rule interaction that reproduces the issue.
 
+## Visual evidence
+
+If this is a visual-output bug, include the render/screenshot when possible.
+
 ## Why this belongs in Ownable
 
-Explain why this is an art-direction / ownability problem rather than a generic implementation, accessibility, performance, or motion issue.
+Explain why this is an art-direction / ownability issue rather than a generic implementation, accessibility, performance, or motion-mechanics issue.
+
+## Eval coverage
+
+Does an existing EVALS.md case catch this? If not, what case should be added?

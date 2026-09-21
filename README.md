@@ -4,90 +4,120 @@
 
 **Art direction that makes AI design hard to logo-swap.**
 
-A portable, capability-aware Agent Skill for subject-specific visual-world discovery, art direction, active intervention, media production, and rendered verification.
+Portable creative-direction and identity guidance for AI-built websites, apps, campaigns, portfolios, and digital experiences.
 
-[![Version](https://img.shields.io/badge/version-2.1.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.0.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
 </div>
 
-## Why Ownable exists
+## What Ownable does
 
-AI is good at producing polished interfaces. It is much worse at deciding **which visual world actually belongs to this subject** rather than to any competent competitor.
+Ownable answers the question most frontend skills leave implicit:
 
-Ownable addresses that problem from direction selection through execution.
+> **What visual world should this particular subject become — and how do we keep that world intact through structure, media, interaction, responsiveness, and implementation?**
 
 Its core test:
 
-> If you can swap the logo and copy for an unrelated competitor and most of the design still works, the art direction is not finished.
+> If the logo and copy can be swapped for an unrelated competitor and most major visual decisions still work, the art direction is not finished.
 
-## What 2.1 adds
+Ownable is subject-first, reference-aware, action-first, capability-aware, provider-neutral, media-literate, and rendered-evidence driven.
 
-Ownable now treats the runtime as a set of **capabilities rather than named vendors**. If a design needs image generation, background removal, a transparent cutout, video, 3D, web sourcing, rendering, or another intervention, the agent should use the best appropriate capability available in that environment—native tool, MCP/connector, local tool, or compatible provider.
+It is **not** a generic frontend coding or QA mega-skill.
 
-This makes the same skill usable across ChatGPT/Codex, Claude environments, Lovable, and other agents without binding the design logic to any one of them.
+## v3 architecture
 
-It also adds a compact standalone quality floor for environments where Taste, Impeccable, or Emil are not installed, while preserving strict specialist precedence when they are.
+v3 is a full consolidation of the earlier rule set.
 
-Ownable now incorporates complementary strengths seen in strong public frontend-design skills: explicit user/task/context fit, a visual thesis, interaction thesis when warranted, deliberate typography, stronger anti-default detection, responsive/functional hard gates, commitment after direction selection, and honest rendered verification—without copying those skills' full implementation systems.
+The core skill is now organized around:
 
-## What 2.0 changed
+1. **Ground** — user, task, truth, scope, subject.
+2. **Discover** — reference universe and candidate visual worlds.
+3. **Commit** — a compact direction contract.
+4. **Produce** — structure, representation, media, motion, responsive art direction.
+5. **Verify** — rendered evidence, asset validation, visitor-eye finishing, ownability.
 
-Ownable 2.0 is a consolidation release, not a bigger rule pile.
+It also adds a dedicated **media strategy** layer and a behavioral **eval suite**.
 
-The previous 46-rule flat list has been reorganized into five phases:
+## Refine/extend vs new/replace
 
-1. **Ground** — subject, truth, constraints, North Star.
-2. **Discover** — global reference discovery and visual-language selection.
-3. **Architect** — content, structure, sequence, representation.
-4. **Produce** — active, capability-aware intervention.
-5. **Verify** — rendered evidence and first-time-visitor finishing.
+Ownable now protects visual authority explicitly.
 
-The core skill is shorter and delegates detailed workflows to conditional references.
+- **new** — establish a world;
+- **replace** — user authorized a new world;
+- **extend** — add inside an existing world;
+- **refine** — improve without replacing identity.
 
-## Visual-language discovery
+This prevents a “polish” request from silently turning into a redesign.
 
-Ownable does not contain a fixed list of “best UI styles.”
+## Direction contract
 
-Glassmorphism, bento, editorial, neo-brutalism, skeuomorphism, minimalism, futurism, and similar labels are **vocabulary**, not presets.
+For substantial new/replacement work, Ownable commits the chosen world before production:
 
-A direction can combine dimensions when coherent:
+- surface job;
+- Creative North Star;
+- visual thesis;
+- identity carriers;
+- composition grammar;
+- type behavior;
+- color/light/material behavior;
+- media/proof stance;
+- interaction thesis;
+- responsive transformation;
+- first-viewport strategy;
+- anti-goals;
+- must-preserve constraints.
 
-- bento-like structure + documentary photography;
-- editorial composition + restrained translucent surfaces;
-- tactile material cues + utilitarian typography;
-- cinematic imagery + quiet product UI.
+When Impeccable already provides a direction contract, Ownable augments rather than duplicates it.
 
-Or it can create a project-specific visual language with no useful trend name at all.
+## Media strategy
 
-The agent searches globally across digital work and adjacent disciplines—editorial, architecture, packaging, industrial design, fashion, signage, maps, archives, film, photography, physical materials, and more—then chooses by fit rather than fashion.
+Ownable distinguishes:
 
-See [direction discovery](./skills/ownable-design/reference/direction-discovery.md).
+- documentary proof;
+- subject artifacts;
+- explanatory media;
+- editorial/atmospheric media;
+- interface/product representation;
+- material/environmental media.
 
-## Action-first behavior
+Then it decides whether to:
 
-For build/redesign/improvement tasks:
+**source → edit → generate → construct semantically → remove**
 
-**audit is diagnosis; the fix is the deliverable.**
+Critical media is produced before layout lock when the composition depends on it.
 
-Ownable expects the agent to use available capabilities rather than stop at recommendations.
+Supported authored directions can include photography, watercolor, gouache, pencil, charcoal, ink, engraving, collage, editorial illustration, diagrams, textures, and stylized 3D when the role earns them.
 
-Examples:
-- source a stronger legitimate real image;
-- generate an earned watercolor, pencil, editorial, photographic, diagrammatic, or 3D asset;
-- remove a background and create a true transparent cutout;
-- clean/reframe/relight/composite imagery truthfully;
-- merge or replace redundant sections;
-- reorder navigation/tabs/content;
-- change the representational medium;
-- add, fix, simplify, or remove an interaction;
-- re-art-direct mobile instead of merely shrinking desktop;
-- render the result and inspect what actually shipped.
+Transparent cutouts require real alpha when the layout needs transparency.
 
-See [intervention playbook](./skills/ownable-design/reference/intervention-playbook.md).
+See [media strategy](./skills/ownable-design/reference/media-strategy.md).
 
-For portable tooling behavior, see [capability routing](./skills/ownable-design/reference/capability-routing.md). For environments missing specialist companions, see [standalone quality floor](./skills/ownable-design/reference/standalone-quality-floor.md).
+## Provider-neutral capabilities
+
+Ownable does not depend on ChatGPT, Codex, Claude, Lovable, Higgsfield, Pollinations, or any other single provider.
+
+It identifies the needed capability—image generation, editing/matting, web sourcing, rendering, video, 3D, motion, etc.—and uses an appropriate available native/local/MCP/connector tool.
+
+See [capability routing](./skills/ownable-design/reference/capability-routing.md).
+
+## Companion stack
+
+Ownable is designed to complement:
+
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — frontend taste, anti-slop, composition heuristics, visual bias correction.
+- [Impeccable](https://github.com/pbakaus/impeccable) — product/design methodology, visual authority, implementation, UX, accessibility, responsive discipline, verification, QA.
+- [Emil Kowalski Skills](https://github.com/emilkowalski/skills) — motion and interaction craft.
+
+The division is intentional:
+
+**Ownable chooses and protects the world.**  
+**Taste sharpens visual taste.**  
+**Impeccable shapes/builds/verifies the product.**  
+**Emil makes motion feel right.**
+
+When one or more companions are missing, Ownable loads only the relevant compact fallback.
 
 ## Install
 
@@ -103,106 +133,56 @@ Codex, user-wide:
 
     npx skills@latest add souravgarg09/ownable-design --skill ownable-design -g -a codex -y
 
-Update an existing global install:
+Update:
 
     npx skills update ownable-design -g -y
 
-## Use it
+## Use
 
-For a new website:
+New site:
 
-> Use Ownable to discover and build a subject-specific visual world. Do not start from a named UI style. Research the subject and reference universe, choose the strongest-fit direction, execute it, and verify the rendered result.
+> Use Ownable to discover and build the visual world for this subject. Ground it in real evidence, choose the strongest-fit direction, commit the direction contract, produce the media/structure the world needs, and verify the rendered result.
 
-For an existing site:
+Existing site:
 
-> Use Ownable to improve this site action-first. Preserve required truth/functionality, diagnose the highest-impact art-direction problems, execute the fixes with available tools, re-render, and finish from a first-time visitor perspective.
+> Use Ownable in refine mode. Preserve the incumbent visual authority and required behavior, diagnose the highest-impact art-direction causes, execute justified fixes with available capabilities, re-render, and finish from a first-time visitor perspective.
 
-Ownable does not require special slash commands.
+Ownable does not require a special slash command.
 
-## Companion stack
-
-Ownable is complementary to specialist skills:
-
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — frontend taste, anti-slop, composition, design dials, scoped visual heuristics.
-- [Emil Kowalski Skills](https://github.com/emilkowalski/skills) — motion and interaction craft.
-- [Impeccable](https://github.com/pbakaus/impeccable) — product/design-world methodology, refinement vs redesign, design systems, UX, accessibility, implementation craft, responsive/technical discipline, progressive enhancement, verification, and QA.
-
-When installed and applicable, those skills remain authoritative in their domains.
-
-Ownable adds the **subject-specific visual-world, reference-discovery, medium-choice, intervention, and ownability layer**.
-
-## Core principles
-
-### Subject before style
-
-Mine the real product, people, place, process, materials, history, culture, artifacts, behavior, and proof before reaching for a trend.
-
-### Style is vocabulary, not identity
-
-A label such as glass, bento, editorial, brutalist, minimal, or skeuomorphic cannot be the Creative North Star by itself.
-
-### References are a universe, not a template library
-
-Search beyond UI galleries. The right direction may come from an archive, a building, a machine, packaging, an instrument, a map, an exhibition, or an audience's familiar visual culture.
-
-### Content shapes composition
-
-Do not pour every content type into the same card grid or split section.
-
-### Every structural unit earns its place
-
-Merge, split, reorder, replace, or remove optional structure when the experience improves.
-
-### Medium choice is part of art direction
-
-Text, image, illustration, diagram, chart, video, 3D, motion, interaction, sound, or silence are choices—not quotas.
-
-### Weak assets are not sacred
-
-Keep, reframe, transform, replace, generate, or remove based on what the concept actually needs.
-
-### Truth outranks decorative prestige
-
-Proof-sensitive moments use verified evidence. Generated atmosphere must not impersonate documentary proof.
-
-### Visual claims require visual evidence
-
-Code correctness is not proof that a page looks good. When preview/rendering exists, inspect the built experience.
-
-### First-time visitor beats implementer bias
-
-Finish by judging the actual opening impression, focal point, clarity, credibility, pacing, repetition, asset quality, transitions, action clarity, and unfinished/templated feel.
-
-## Repository structure
+## Repository
 
     ownable-design/
     ├── README.md
     ├── LICENSE
     ├── CHANGELOG.md
     ├── CONTRIBUTING.md
+    ├── EVALS.md
     ├── examples/
     │   └── README.md
     └── skills/
         └── ownable-design/
             ├── SKILL.md
             └── reference/
+                ├── capability-routing.md
                 ├── direction-discovery.md
                 ├── intervention-playbook.md
-                ├── capability-routing.md
+                ├── media-strategy.md
                 └── standalone-quality-floor.md
 
-## What Ownable deliberately does not contain
+## What Ownable deliberately avoids
 
-Ownable does not maintain:
-
-- a fixed catalog of approved UI styles;
+- fixed “best UI for category X” tables;
+- mandatory style recipes;
 - price tiers as design-quality rules;
+- framework-specific implementation recipes;
+- provider-specific tool workflows;
 - generic cold-audit commands;
-- framework-specific frontend recipes;
-- platform-specific ChatGPT/Claude/Codex/Figma philosophy;
-- duplicate motion rules already owned by motion specialists;
 - duplicate accessibility/performance/state/QA systems;
-- generic implementation guidance better handled by specialist skills.
+- duplicate detailed motion mechanics.
+
+## Behavioral testing
+
+See [EVALS.md](./EVALS.md). Rule changes should improve behavior on the eval set without creating a new universal style/default.
 
 ## Examples
 
@@ -210,13 +190,11 @@ See [examples/README.md](./examples/README.md).
 
 ## Contributing
 
-Contributions are welcome when they sharpen subject-specific art direction without turning Ownable into a generic mega-skill. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-## Versioning
+## Version
 
-Ownable follows semantic versioning.
-
-Current release: **2.1.0**.
+Current release: **3.0.0**.
 
 ## License
 

@@ -1,112 +1,105 @@
 # Ownable examples
 
-These examples show **how Ownable thinks**, not a catalog of styles to reproduce.
+These examples show behavior, not styles to copy.
 
 ## Named style is not the direction
 
-**Generic:** “Luxury jewellery → black background + gold serif + glass cards.”
+**Weak:** “Luxury jewellery → black + gold serif + glass cards.”
 
-**Ownable:** inspect the actual maker, products, architecture, packaging, regional/cultural context, photography, materials, and customer proof. A translucent surface may survive if it supports the resulting world; it is never the reason the world exists.
+**Ownable:** inspect the real products, store, architecture, packaging, photography, materials, audience, place, and proof. A translucent surface may survive if it serves the resulting world; it is never the reason the world exists.
 
-## Bento as structure, not identity
+## Refine versus replace
 
-**Generic:** pick a bento grid because it is fashionable, then force every feature into rounded cards.
+**Weak:** user asks to polish an established product; agent changes typography, navigation, palette, card grammar, and motion language.
 
-**Ownable:** use modular asymmetry only if the content naturally has different weights and scannable units. The same structure can carry documentary, editorial, tactile, technical, or other material languages. If the content wants a sequence or one decisive field, do not use bento.
+**Ownable:** classify the task as refine. Preserve visual authority and fix the narrow causes. New-world discovery is for new/replace work.
 
 ## Global reference discovery
 
-**Generic:** search “best hospital website design” and imitate the cleanest result.
+**Weak:** search “best hospital website design” and imitate the cleanest result.
 
-**Ownable:** study the real facility, specialties, equipment, patient journey, planning process, architecture, verified proof, medical/technical visualization traditions, wayfinding, relevant editorial systems, and high-craft digital references. Translate useful principles into a hospital-specific world without turning medical conventions into identity.
+**Ownable:** study the real hospital, patient journey, specialties, architecture, equipment/proof, medical visualization, wayfinding, editorial systems, and high-craft digital references. Translate principles without copying identity.
 
-## Artist / music site
+## Bento as structure, not identity
 
-**Generic:** dark gradient, waveform, microphone, autoplay particles.
+**Weak:** force every feature into rounded bento cards because “bento” is fashionable.
 
-**Ownable:** derive from the artist's actual lyrical themes, geography, stage behavior, visual archive, handwriting, instruments, performance energy, cultural context, and recurring imagery. The result may be editorial, cinematic, tactile, archival, typographic, or something with no style label.
+**Ownable:** modular asymmetry is only one composition grammar. Use it when the content genuinely has unequal scannable units; choose material/type/media independently.
 
-## Coherent hybrid
+## One dominant move
 
-**Generic:** glass + bento + brutalist borders + 3D blob + kinetic type because each looks interesting.
+**Weak:** every section gets a dramatic concept, 3D effect, kinetic type, and scroll trick.
 
-**Ownable:** combine only principles that express one North Star. For example, editorial composition, restrained translucent utility surfaces, and documentary photography may coexist if they all support the same subject and hierarchy.
+**Ownable:** let one focal mechanism carry the memorable move. Other regions support the same world more quietly.
 
-## Wrong medium
+## First viewport thesis
 
-**Generic:** put a complex process into three feature cards.
+**Weak:** generic headline + CTA + decorative image, with the actual subject explained later.
 
-**Ownable:** choose the representation from the information. A process may need a timeline, annotated diagram, interactive explainer, sequence, or one decisive image with steps.
+**Ownable:** make the first viewport demonstrate the subject, mechanism, proof, or experiential proposition at the scale the page promises.
 
-## Weak photo
+## Wrong representation
 
-**Generic:** keep the supplied image because the client provided it, then hide problems with overlays.
+**Weak:** put a five-step process into five equal cards.
 
-**Ownable:** diagnose crop, source quality, relevance, proof role, and context. Keep/reframe a good source; truthfully transform a salvageable one; replace it with a better approved real asset; generate a new asset when generation is the right medium; or remove the image.
+**Ownable:** choose a sequence, timeline, annotated diagram, interactive explainer, or another form if it communicates the relationship better.
+
+## Missing critical asset
+
+**Weak:** build a hero around a gray placeholder, then accept whatever generated image fits later.
+
+**Ownable:** if the hero depends on a watercolor/cutout/product plate, create and inspect that critical asset before locking final composition.
 
 ## Background removal
 
-**Generic:** ask the user to prepare a transparent PNG.
+**Weak:** ask the user for a transparent PNG or fake a cutout with a circle/radial mask.
 
-**Ownable:** when editing capability exists and the cutout is truthful, create the real alpha cutout, integrate it, and inspect the rendered edges on the intended background.
+**Ownable:** use available editing/matting capability to create real alpha, inspect edges/holes on intended surfaces, then integrate it.
 
 ## Generated illustration
 
-**Generic:** suggest “maybe use watercolor here” and leave the weak stock photo.
+**Weak:** recommend watercolor and leave generic stock media in place.
 
-**Ownable:** when watercolor genuinely serves the narrative and generation is available, generate it, place it, render the result, and remove it again if the actual page is weaker than the idea sounded.
+**Ownable:** if watercolor is the right truth class and generation is available, produce it, inspect it, place it, render the section, and remove/regenerate it if the real result is weaker than the concept.
 
-## Redundant sections
+## Proof versus atmosphere
 
-**Generic:** preserve two sections that communicate the same thing and style them differently.
+**Weak:** replace limited real hospital/store/product photography with polished synthetic substitutes.
 
-**Ownable:** merge them, differentiate their jobs, or remove the optional weaker one.
+**Ownable:** real proof stays real. Generated media supports explanation, atmosphere, metaphor, or missing non-documentary roles.
 
-## Wrong section concept
+## Structural surgery
 
-**Generic:** polish a generic three-card section with nicer shadows and motion.
+**Weak:** preserve two optional sections that repeat the same message and style them differently.
 
-**Ownable:** replace the section if the content is not actually three equal things. A process may become a sequence; proof may become one decisive visual plus evidence; a narrative may become editorial composition.
+**Ownable:** merge, differentiate, reorder, replace, or remove according to the actual job.
 
 ## Motion
 
-**Generic:** apply the same fade-up to every section.
+**Weak:** apply the same fade-up to every section.
 
-**Ownable:** decide whether motion has a job. Keep, add, simplify, retarget, replace, or remove it. When Emil is active, let Emil govern the mechanics.
+**Ownable:** decide whether motion has a purpose. Keep/add/simplify/retarget/replace/remove it. Emil owns detailed motion craft when active.
 
 ## Responsive re-art-direction
 
-**Generic:** shrink desktop, stack everything, crop the same hero harder.
+**Weak:** shrink desktop and crop the same hero harder.
 
-**Ownable:** preserve identity while changing the composition when needed. A desktop image sequence may become one decisive mobile crop; atmosphere may reduce; proof/action may move earlier; a spatial interaction may become a swipeable sequence.
+**Ownable:** preserve identity while changing crop, media, sequence, interaction, or emphasis when the context demands it.
 
 ## Rendered reality
 
-**Generic:** change code and declare the design premium.
+**Weak:** change code and declare the page premium.
 
-**Ownable:** inspect the render. A good-looking CSS plan can still crop a face badly, wrap typography poorly, bury the CTA, or make the page feel dead.
+**Ownable:** inspect the actual render. A correct implementation can still crop a face badly, wrap type poorly, bury action, or feel visually dead.
 
-## First-time visitor
+## Portable capability routing
 
-**Generic:** finish by tuning shadows and hover states.
+**Weak:** “Higgsfield is unavailable, so I cannot create the asset.”
 
-**Ownable:** first fix the confusing opening, weak focal point, repetitive middle, unconvincing proof, dead area, low-quality asset, abrupt transition, or generic visual fingerprint.
+**Ownable:** identify the needed capability (for example image generation/editing), look for another available native/local/MCP/connector tool, then route the same art-direction brief through it.
 
+## Cross-project fingerprint
 
-## Portable image generation
+**Weak:** reuse the same capsule nav, hero silhouette, bento grammar, font pairing, and reveal choreography across unrelated brands.
 
-**Wrong:** “This would look better with a watercolor illustration. Please make one in your image tool.”
-
-**Ownable:** determine whether an image-generation capability is available in the current environment. If watercolor is truthful and conceptually earned, generate it through the best available native tool, MCP/connector, or compatible provider, inspect the result, integrate it, and judge the rendered page. The art-direction decision does not change because the provider changes.
-
-## Transparent cutout
-
-**Wrong:** fake a product/person cutout using a white background, radial mask, or rounded shape because the preferred image tool does not support alpha.
-
-**Ownable:** route the job to an available editing/matting/background-removal capability, produce real transparency, inspect fine edges and holes on the intended background, and only then ship it.
-
-## Companion stack versus standalone
-
-**With Taste + Impeccable + Emil:** Ownable chooses the subject-specific world and intervention intent; the specialists own their detailed domains.
-
-**Standalone:** Ownable loads its compact quality floor so the result still has deliberate typography, coherent system logic, functional/accessibility basics, responsive behavior, purposeful motion, anti-default checks, and bounded rendered verification without pretending to replace those specialist skills.
+**Ownable:** reuse standards and implementation primitives; re-derive surface identity from each subject.

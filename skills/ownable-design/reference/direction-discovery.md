@@ -1,157 +1,141 @@
 # Direction discovery
 
-Load this reference when a new/replacement visual world is open, when the current direction feels generic, or when broader reference discovery would materially improve the work.
+Load this for **new**, **replace**, or materially open visual-direction work. Do not load it for a narrow refinement whose existing visual authority is already clear.
 
-Ownable does **not** maintain a fixed catalog of approved UI styles. Named aesthetics are useful vocabulary, not a menu of answers.
+Ownable does not maintain an approved style catalog. Named aesthetics are vocabulary, not a menu.
 
-## 1. Build the reference universe
+## 1. Establish visual authority
 
-When tools allow, gather evidence from several different places rather than searching only one trend keyword.
+Before exploring:
+- confirm whether the task is new, replace, extend, or refine;
+- identify what brand/system/brief decisions are already binding;
+- identify what axes are genuinely open.
+
+Do not “discover” a new world where the brief only authorized refinement.
+
+## 2. Build the reference universe
+
+Use several evidence families when access allows.
 
 ### Subject evidence
-Search the actual subject:
-- products, materials, machinery, craft, process, packaging;
-- people, place, architecture, environment;
-- archives, history, language, symbols with verified relevance;
-- real photography, documents, diagrams, data, signage, interfaces, artifacts.
+Products, materials, machinery, craft, process, packaging, people, place, architecture, environment, language, archives, history, data, interfaces, artifacts, documents, photography.
 
 ### Category and competitors
-Study the category to understand conventions, trust expectations, interaction norms, and the rut to avoid. Do not mistake category convention for identity.
+Learn trust expectations, conventions, interaction norms, and the rut to avoid.
 
-### Audience's cultural world
-Look at the publications, tools, objects, spaces, notation, entertainment, visual systems, and interfaces the audience already knows.
+### Audience culture
+Study the publications, tools, objects, spaces, notation, entertainment, interfaces, and visual systems familiar to the actual audience.
 
 ### Adjacent disciplines
-Useful sources may come from:
-- editorial and book design;
-- magazines, posters, album art, title sequences;
-- packaging and identity systems;
-- architecture, interiors, exhibition design, museums;
-- industrial and automotive design;
-- fashion, photography, styling;
-- signage and wayfinding;
-- maps, scientific/technical diagrams, data graphics;
-- physical materials, craft methods, manufacturing;
-- games, film, performance, stage design;
-- high-craft digital products outside the subject's category.
+Editorial/book design, posters, album art, packaging, architecture, interiors, exhibition design, industrial/automotive design, fashion, photography, film titles, signage, wayfinding, maps, scientific/technical diagrams, physical materials, manufacturing, games, stage/performance, and high-craft digital work outside the category.
 
-### Digital reference sources
-Real brand/product sites, app archives, award galleries, interface libraries, component references, and design communities can all help. Examples include Mobbin, Awwwards, Godly, SiteInspire, Land-book, 21st.dev, and direct brand sites, but the list is deliberately non-exhaustive.
+Search for principles and evidence, not a page to imitate.
 
-Search for useful principles, not for a page to copy.
+## 3. Decompose the visual world
 
-## 2. Decompose the visual world
+Treat these as coordinated axes rather than one style switch:
 
-A named style may describe only one dimension. Treat the following as independent but coordinated axes:
+1. composition / spatial grammar;
+2. typography / lettering behavior;
+3. color / light;
+4. surface / material;
+5. geometry / chrome;
+6. imagery / illustration;
+7. density / rhythm;
+8. information representation;
+9. interaction / motion;
+10. responsive transformation.
 
-1. **composition / spatial grammar** — editorial, modular, field-based, grid-heavy, cinematic, dense, sparse, etc.;
-2. **typographic voice** — restrained, expressive, archival, technical, humanist, fashion/editorial, utilitarian, etc.;
-3. **color and light** — palette, contrast, illumination, temperature, material response;
-4. **surface / material** — flat, translucent, tactile, metallic, paper-like, soft, hard, glossy, grainy, etc.;
-5. **geometry and chrome** — corners, rules, frames, controls, icon behavior, object shapes;
-6. **imagery / illustration** — documentary, campaign, product, macro, cutout, collage, drawing, painting, 3D, diagrammatic;
-7. **density and rhythm** — information packing, whitespace, pacing, repetition/variation;
-8. **information representation** — prose, cards, tables, timelines, diagrams, maps, charts, annotated media;
-9. **motion and interaction** — continuity, reveal, transformation, feedback, navigation behavior, signature interactions;
-10. **responsive transformation** — what changes across viewport, input mode, and capability.
+A bento-like information structure does not require a bento-looking material system. Glass can be one surface behavior rather than the identity. Editorial composition can coexist with documentary imagery.
 
-Examples:
-- bento may describe structure without dictating material;
-- glass may describe a surface treatment without determining typography or page rhythm;
-- editorial may describe composition/type behavior while imagery remains documentary;
-- skeuomorphic material may appear only in one meaningful control rather than defining an entire site.
+## 4. Generate candidates only when needed
 
-Do not let one label make every decision.
+If Impeccable is active, use its current direction-selection methodology.
 
-## 3. Find candidate worlds
+Fallback:
 
-If Impeccable is active for new/replacement work, use its current direction-selection workflow and feed it Ownable's evidence/reference findings.
-
-Fallback when that workflow is unavailable:
-
-1. Derive at least four grounded visual-world seeds from different evidence families.
-2. Remove near-duplicates and any seed that depends mostly on a trend label.
-3. Develop the strongest three into materially different directions.
-4. Each direction should specify:
+1. derive several seeds from different evidence families;
+2. remove near-duplicates and style-label-only ideas;
+3. develop the strongest few into materially different worlds;
+4. include for each:
    - North Star;
-   - composition/spatial grammar;
-   - type voice;
+   - visual thesis;
+   - composition grammar;
+   - type behavior;
    - color/material behavior;
-   - media language;
-   - information representation;
-   - motion/interaction role;
-   - responsive behavior;
-   - one honest risk.
-5. Compare them qualitatively; do not use arbitrary numeric scores.
-6. Commit to the strongest fit unless the user requested options or approval is required.
+   - media stance;
+   - interaction thesis if needed;
+   - first-viewport move;
+   - responsive consequence;
+   - one honest risk;
+5. compare qualitatively;
+6. commit to the strongest fit unless the user requested/needs an approval point.
 
-Different means different visual logic, not the same hero with different colors.
+Different means different visual logic, not recolors of the same page.
 
-After selection, write one visual thesis and, when interaction matters, one interaction thesis. Carry the selected world's strongest logic forward instead of averaging it with rejected candidates.
+## 5. Fit gate
 
-## 4. Fit gate
+A direction survives only if it works for:
 
-A direction earns selection when it survives these questions:
+- **user/task fit** — does it help the intended audience understand, decide, operate, read, or experience the surface?
+- **subject resonance** — does it arise from something specific and truthful?
+- **content behavior** — can real copy, proof, imagery, data, and states live naturally inside it?
+- **clarity** — does the offer/task remain legible?
+- **proof/trust** — can evidence remain credible?
+- **brand continuity** — does it respect confirmed commitments?
+- **accessibility/platform reality** — can it work in the actual environment?
+- **feasibility** — can available assets/tools/time/performance support it?
+- **longevity** — is it more than a short-lived surface gimmick?
+- **ownability** — would transplantation to an unrelated subject destroy meaning?
 
-- **User/task fit:** does it help the intended audience understand, decide, operate, read, or experience what this surface is for?
+A fashionable answer loses when a quieter, stranger, or simpler direction fits better.
 
-- **Subject resonance:** does it arise from something specific and truthful?
-- **Audience/use context:** does it fit who uses it, where, and why?
-- **Content behavior:** can real copy, proof, imagery, data, and tasks live naturally inside it?
-- **Product clarity:** does the offer/task remain understandable?
-- **Proof/trust:** can evidence remain credible instead of being buried by style?
-- **Brand continuity:** does it respect confirmed brand commitments?
-- **Feasibility:** can the available tools/assets/time/performance budget support it?
-- **Longevity:** is it more than a short-lived surface gimmick?
-- **Ownability:** does it become difficult to transplant to an unrelated subject?
-
-A fashionable answer loses if a quieter or stranger one fits better.
-
-## 5. Anti-default check
+## 6. Anti-default check
 
 Before commitment, ask:
 
-- Did the model choose this because it is familiar?
-- Would the same nav silhouette, hero, bento grid, glass card, black luxury palette, giant editorial type, gradient field, marquee, 3D object, or scroll reveal appear in an unrelated project?
-- Is the direction just the category standard or its equally predictable opposite?
-- Does the rationale still make sense after removing all style names?
+- Did the model pick this because it is familiar or easy to generate?
+- Would the same nav silhouette, hero, bento grid, glass card, black-luxury palette, warm-editorial palette, giant type, decorative gradient, marquee, 3D object, or reveal choreography appear in unrelated work?
+- Is this merely the category standard or its predictable opposite?
+- Does the rationale still make sense after removing style names?
 
-If familiarity is doing more work than subject evidence, return to the reference universe.
+When Taste is active, use its current anti-default/anti-slop guidance as the detailed authority.
 
-## 6. Reference abstraction depth
+## 7. Abstract references deeply
 
 Borrow at the deepest useful level:
 
-**weak:** copy a layout or motif  
-**better:** borrow a component/surface treatment  
-**strong:** borrow composition, hierarchy, rhythm, framing, material behavior, information strategy, or interaction principle  
+**weak:** copy layout/motif  
+**better:** borrow component/surface treatment  
+**strong:** borrow hierarchy, rhythm, framing, material behavior, information strategy, or interaction principle  
 **best:** translate that principle into a new expression derived from this subject
 
 Do not lift a competitor's recognizable identity.
 
-## 7. Hybrid coherence
+## 8. Hybrid coherence
 
-Hybrid directions are valid only when the parts serve one world.
+Hybrid directions are valid only when all parts serve one world.
 
-A combination such as editorial composition + restrained translucent surfaces + documentary photography can work if all three express the same subject. A pile of bento + glass + brutalism + clay + kinetic type + 3D because each looks interesting is not a direction.
-
-Use this test:
-
-> If the style labels disappear, can the hybrid still be explained as one coherent system derived from the subject?
+If the style labels disappear, you should still be able to explain the system through the subject, North Star, and visual logic.
 
 If not, simplify.
 
-## 8. Commit without sanding off the direction
+## 9. One dominant move, supporting system
 
-Once the direction wins, do not retreat to a generic component kit whenever implementation becomes inconvenient. Translate the world into quieter and louder moments while preserving its grammar.
+A strong direction does not require every region to perform.
 
-If the direction cannot survive ordinary content, responsive contexts, or real controls without losing itself, it was not a complete direction.
+Choose one dominant focal move or memorable mechanism when the surface warrants it. Let typography, material, spacing, imagery, and quieter regions support that move.
 
-## 9. Compare visually when words are insufficient
+Busy is louder, not bolder.
 
-When multiple directions remain plausible and visual prototyping is available, compare representative first-view or key-surface comps rather than choosing entirely from prose.
+## 10. Compare visually when prose is insufficient
 
-Judge the rendered evidence for:
+When multiple directions remain plausible and visual prototyping is available, compare representative comps or key surfaces rather than choosing only from written rationale.
+
+A comp must be a **designed surface**, not a poster/mood image.
+
+Judge:
+- visitor job;
 - subject fit;
 - first impression;
 - content behavior;
@@ -159,4 +143,10 @@ Judge the rendered evidence for:
 - proof clarity;
 - whole-system potential.
 
-When Impeccable provides a current comp/direction workflow, use it instead of creating a parallel Ownable process.
+When Impeccable provides a comp/direction workflow, use it instead of creating a parallel one.
+
+## 11. Commit the world
+
+After selection, write or retain the compact direction contract defined in SKILL.md.
+
+Do not change palette, typography voice, motif, structural driver, or media stance later merely because another option is easier to implement. If the committed world fails real content or responsive reality, revisit the direction explicitly rather than silently drifting.

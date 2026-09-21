@@ -7,34 +7,43 @@ labels: enhancement
 
 ## Behavior problem
 
-What agent behavior is currently weak or missing?
+What agent behavior is weak or missing?
 
-## Concrete example
+## Reproduction
 
-Show a before/after scenario.
+Provide the smallest prompt/artifact scenario that shows the problem.
 
-## Why existing rules are not enough
+## Existing coverage
 
-Which current rule(s) did you check?
+Which current core rule/reference did you check, and why is it insufficient?
 
 ## Best home
 
-- [ ] Merge/refine an existing core rule
-- [ ] Add/change a conditional reference
+- [ ] Tighten/merge an existing core rule
+- [ ] Change a conditional reference
+- [ ] Add an eval only
 - [ ] New core rule is genuinely necessary
+
+## Scope mode impact
+
+Does this behave correctly in new / replace / extend / refine work?
 
 ## Companion overlap
 
-Could Taste, Emil Kowalski skills, Impeccable, or another specialist already own this better?
+Could Taste, Impeccable, Emil, or another specialist own this better?
 
-## Ownability value
+## Portability
 
-How does this make the work more subject-specific, less templated, or more actionable?
+Would the behavior still make sense if the model/tool/provider/framework changed?
 
-## Anti-default check
+## Eval
 
-Could this proposal accidentally create a new universal style/default?
+Which EVALS.md case should improve? If none, propose a new one.
 
-## Scope/truth impact
+## Anti-default risk
 
-How does it preserve the brief, product truth, accessibility, safety, and required behavior?
+Could this create a new universal style or behavior default?
+
+## Truth / accessibility / safety
+
+How are binding product truth, required behavior, accessibility, and safety preserved?
