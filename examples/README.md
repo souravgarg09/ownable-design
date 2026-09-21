@@ -138,6 +138,36 @@ For evidence-bearing content — the actual performer, product, venue, facility,
 
 **Ownable response:** when they meaningfully carry the subject, treat typography and material language as identity carriers. Refine or replace generic choices when they weaken the visual world, while deferring detailed type/color/system execution to Taste or Impeccable when those skills are active.
 
+## Audit versus execution
+
+**Generic response:** “The hero photo is weak, the second and third sections are repetitive, and the mobile layout could be improved.”
+
+**Ownable response on a modification task:** use those findings only as diagnosis. Replace/edit/remove the weak hero asset, merge or differentiate the redundant sections, re-art-direct the mobile composition, render the result, inspect it, and fix the remaining high-impact problem. Report what changed, not merely what should change.
+
+## Background removal
+
+**Generic response:** tell the user to prepare a transparent PNG before the layout can be improved.
+
+**Ownable response:** when image-editing capability exists and the cutout is truthful, create the alpha cutout/background-removed asset, integrate it into the composition, and visually verify that the real contour and edge quality work in context. If the capability does not exist, state the needed asset rather than pretending it was produced.
+
+## Generated illustration
+
+**Generic response:** recommend “maybe use a watercolor illustration here” and continue using the weak stock photo.
+
+**Ownable response:** if watercolor is genuinely the best medium for that narrative role and generation is available, generate the illustration, place it, render the section, and judge whether it actually strengthens the whole page. Remove it again if the real result is weaker than the concept sounded.
+
+## Rendered reality
+
+**Generic response:** change CSS and declare the page premium without opening the result.
+
+**Ownable response:** inspect the rendered page. A technically correct crop may cut off the subject; a sophisticated type pairing may wrap badly; a dramatic 3D moment may overwhelm the CTA. Visual claims are made from the rendered experience, not intention.
+
+## First-time visitor finish
+
+**Generic response:** spend the final pass tuning shadows and hover states.
+
+**Ownable response:** first look at the experience as someone arriving for the first time. Fix a confusing first viewport, weak focal point, repetitive middle, unconvincing proof, dead area, low-quality asset, or abrupt transition before spending effort on micro-polish.
+
 ## Existing brand system
 
 **Generic response:** replace the visual system because a more fashionable one looks better.

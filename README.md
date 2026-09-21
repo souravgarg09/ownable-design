@@ -6,7 +6,7 @@
 
 A portable Agent Skill for subject-specific, concept-led, truthful digital art direction.
 
-[![Version](https://img.shields.io/badge/version-1.5.0-111111)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.6.0-111111)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-111111)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-111111)](https://github.com/vercel-labs/skills)
 
@@ -32,7 +32,11 @@ Ownable pushes the agent to mine the subject itself before reaching for template
 - **Logo-swap / ownability test** — catch art direction that is polished but generic.
 - **Cultural specificity without costume** — use real materials, rituals, language, craft, places, objects, archives, and history instead of token “heritage” motifs.
 - **Content-led composition** — let the real content, evidence, imagery, task, and hierarchy determine form instead of pouring everything into predetermined section shells.
+- **Action-first art direction** — for build/improve/redesign tasks, diagnosis chooses the fix; the expected output is a changed artifact, not a critique report.
 - **Active art-direction intervention** — inspect every major section and meaningful expressive medium in scope, then keep, refine, transform, replace, add, simplify, regroup, or remove what the experience actually needs.
+- **Rendered-evidence requirement** — visually inspect the actual result when rendering/preview is available; code correctness is not proof of visual quality.
+- **Capability-triggered execution** — generate, edit, source, cut out, composite, implement, reorder, merge, animate, or otherwise perform justified fixes when the environment can do them.
+- **Visitor-eye finish pass** — prioritize first impression, structure, major imagery/proof, hierarchy, pacing, and coherence before micro-polish, then verify the finished experience as a first-time visitor.
 - **Root-cause diagnosis** — fix the real structural, content, proof, sequencing, asset, or concept problem instead of decorating the symptom.
 - **Structural economy** — every section, page, and major screen must earn its place.
 - **Structural surgery and ordering** — reorder, regroup, merge, split, replace, or remove sections, tabs, navigation items, and content groups when the hierarchy or flow genuinely improves.
@@ -102,7 +106,7 @@ Use Ownable while designing this website. Mine the subject before choosing a vis
 For an existing design:
 
 ```text
-Use Ownable to actively improve the art direction, not just critique it. Keep the brief and required content intact, audit every major section and meaningful expressive medium in scope; replace or remove weak imagery; refine typography/color/material when needed; choose better diagrams/data/video/3D/interaction representations when they communicate better; simplify, replace, add, or remove motion where needed; re-art-direct responsive contexts when necessary; merge or replace redundant sections; reorder structure when the flow improves; and run the logo-swap test before finalizing.
+Use Ownable to actively improve the art direction and execute the fixes, not just critique it. Keep the brief and required content intact, audit every major section and meaningful expressive medium in scope; replace or remove weak imagery; refine typography/color/material when needed; choose better diagrams/data/video/3D/interaction representations when they communicate better; simplify, replace, add, or remove motion where needed; re-art-direct responsive contexts when necessary; merge or replace redundant sections; reorder structure when the flow improves; and run the logo-swap test before finalizing.
 ```
 
 Ownable does not require special slash commands. It is designed to improve the agent's judgment while it performs the user's actual task.
@@ -132,6 +136,35 @@ A more ownable direction should draw from things competitors cannot casually inh
 The goal is not novelty for novelty's sake. The goal is **specificity with coherence**.
 
 ## A few important principles
+
+### Audit is diagnosis; the fix is the deliverable
+
+For create/build/redesign/improve/fix/polish tasks, Ownable defaults to action.
+
+The operating loop is:
+
+**understand → inspect the rendered experience → prioritize → execute fixes → render again → fix remaining high-impact issues → finish**
+
+If image generation is available and an earned watercolor or pencil illustration is the right solution, generate it. If image editing can create the needed real cutout, remove the background. If the structure is wrong, change the structure. If motion is weak, fix or remove it. If a better real image is needed and sourcing is available, find an appropriate usable source.
+
+Do not send work back to the user merely because it would require another tool the agent already has.
+
+### Visual claims need visual evidence
+
+Code can be valid while the page still looks bad. When preview/render/screenshot capability exists, Ownable inspects the actual built result.
+
+For substantial web work, representative desktop and mobile viewing is the normal minimum when both are in scope. This is not a second QA system; specialist skills can own the detailed verification mechanics.
+
+### Work in impact order
+
+Ownable fixes the big experience before the tiny details:
+
+1. concept, first impression, structure, task/decision path, truth;
+2. hero/primary media, major imagery/proof, hierarchy, sequencing, representation;
+3. typography/material, responsive art direction, interaction/motion concept;
+4. micro-polish.
+
+The final pass is from the perspective of a first-time visitor: does the experience immediately feel coherent, credible, specific, intentional, engaging, and finished?
 
 ### Ownable acts, not only critiques
 
@@ -290,7 +323,7 @@ ownable-design/
 
 Ownable follows semantic versioning for public releases. Rule changes that materially alter agent behavior are documented in [`CHANGELOG.md`](./CHANGELOG.md).
 
-Current release: **1.5.0**.
+Current release: **1.6.0**.
 
 ## Contributing
 

@@ -1,7 +1,7 @@
 ---
 name: ownable-design
-description: Subject-specific art direction for websites, apps, campaigns, portfolios, and digital experiences. Use when a design needs a strong creative North Star, brand specificity, coherent multi-medium art direction, truthful visual storytelling, structural economy, active intervention across imagery, structure, motion, typography, material, data, interaction, video, 3D, sound, or responsive presentation, or an identity that cannot be transplanted to an unrelated brand by swapping the logo and copy.
-version: 1.5.0
+description: Subject-specific, action-oriented art direction for websites, apps, campaigns, portfolios, and digital experiences. Use when a design needs a strong creative North Star, brand specificity, coherent multi-medium art direction, truthful visual storytelling, structural economy, active execution across imagery, structure, motion, typography, material, data, interaction, video, 3D, sound, or responsive presentation, and rendered verification rather than critique-only output.
+version: 1.6.0
 license: MIT
 ---
 
@@ -18,6 +18,28 @@ It intentionally stays out of domains that specialist skills handle better.
 The explicit user brief, verified product/brand truth, legal and safety requirements, required content/functionality, and native platform constraints are binding. Ownable shapes art direction inside those constraints; it does not use “ownability” as permission to ignore them.
 
 When a rule below conflicts with an explicit requirement, satisfy the requirement and preserve the principle as far as the context allows.
+
+## Default execution mode
+
+For requests to **create, build, redesign, improve, fix, polish, transform, or otherwise modify** an experience, Ownable is an **execution skill**, not a critique generator.
+
+Diagnosis exists to choose the intervention. The expected outcome is a changed artifact when the environment can perform the work. Do not stop at “this image should be replaced,” “this section could be merged,” “the mobile composition needs work,” or similar advice when the available tools can actually make the change.
+
+Use this operating loop:
+
+1. **Understand** the subject, brief, truth, existing system, assets, constraints, and requested scope.
+2. **Inspect the actual experience** using rendered output or the strongest available visual evidence when the task is visual.
+3. **Prioritize** the highest-impact causes rather than accumulating observations.
+4. **Execute** the justified fixes with the capabilities available in the environment.
+5. **Render or inspect again** after substantial changes.
+6. **Fix the remaining high-impact visual/art-direction defects in one bounded pass.**
+7. **Finish only after the changed result, not merely the intention, supports the direction.**
+
+Do not make the user manually perform work that the active environment can safely do itself. Use available browsing/sourcing, image generation, image editing, background removal, compositing, coding, rendering, screenshot/preview, animation, 3D, diagramming, or other relevant capabilities when they are justified by the concept and permitted by scope.
+
+If a required capability is unavailable, continue with every useful intervention that *is* possible and state the blocked intervention precisely. Never claim that an asset was generated, a background was removed, an animation was fixed, or a visual result was verified when it was not.
+
+A critique-only or recommendation-only response is appropriate when the user explicitly asked for analysis/critique, when the environment is read-only, or when authorization/scope prevents modification.
 
 ## Companion precedence
 
@@ -104,13 +126,53 @@ For substantial work on an existing experience, inspect **every major section an
 
 For each meaningful image/media moment, decide whether it should be **kept, reframed, transformed, replaced, generated, or removed**. For each major structural unit, decide whether it should be **kept, refined, regrouped, reordered, merged, split, replaced, or removed**. For each other meaningful expressive medium, decide whether it should be **kept, refined, transformed, replaced, added, simplified, or removed** according to the role it is supposed to serve.
 
-When the user asked to design, improve, redesign, polish, or otherwise modify the experience and the runtime provides the necessary tools, act on those decisions instead of stopping at critique. If the task is analysis-only, or a required capability is unavailable, report the exact intervention rather than pretending it was performed.
+When the user asked to design, improve, redesign, polish, or otherwise modify the experience and the runtime provides the necessary tools, **execute those decisions** instead of stopping at critique. The audit is diagnosis; the modification is the deliverable. If the task is analysis-only, or a required capability is unavailable, report the exact intervention rather than pretending it was performed.
 
 This authority does not expand scope by itself. Do not silently turn a refinement into a redesign, alter required product truth, or remove brief-mandated content/functionality. When Impeccable is active, its refinement-vs-redesign and product-truth rules govern scope.
 
 Judge every local intervention against the whole experience. A locally stronger image or section is still a bad change if it creates repetition, weakens pacing, breaks the asset language, or makes the overall journey less coherent.
 
-### 18. Use an asset intervention ladder
+### 18. Require visual evidence for visual conclusions
+Source code, design tokens, component names, and implementation intent are not proof that a website looks good.
+
+When rendering, preview, screenshot, simulator, browser, or comparable visual evidence is available, inspect the **actual rendered experience** before making strong claims about composition, image quality, hierarchy, polish, responsiveness, atmosphere, or visual impact.
+
+For substantial website changes, inspect representative contexts — ordinarily at least a meaningful desktop and mobile view when both are in scope — and inspect important states/pages when they materially change the art direction.
+
+Do not say that a hero is “premium,” a crop “works,” a composition is “balanced,” or the experience is “finished” solely because the code appears correct. If visual inspection is impossible, say that verification is unavailable and avoid pretending otherwise.
+
+This is an art-direction evidence requirement, not a duplicate technical QA framework. When Impeccable is active, follow its bounded rendering/verification workflow rather than creating a second competing inspection loop.
+
+### 19. Use capabilities to perform the fix, not merely describe it
+When the task permits modification and an appropriate capability is available, **perform the justified intervention**.
+
+Examples include:
+- source a stronger truthful/permissioned real asset when web/source access is available;
+- generate an earned photographic, watercolor, gouache, pencil, charcoal, ink, engraved, collage, editorial, diagrammatic, 3D, or other subject-appropriate asset when generation is the right medium;
+- remove or replace a background, create a real alpha cutout, clean clutter, reframe, relight, composite, upscale, or produce responsive variants when image editing supports it;
+- implement, replace, simplify, or remove a section rather than merely recommending the change;
+- merge, split, reorder, regroup, relabel, promote, or demote structural content when allowed;
+- implement/fix an earned animation or interaction when the environment can do so, with Emil governing motion craft when active;
+- create a diagram, visualization, video treatment, spatial treatment, or other representation when it communicates the content better.
+
+Do not force a tool action merely because a tool exists. The intervention must still pass the subject, truth, scope, purpose, and whole-experience tests.
+
+Do not offload “prepare a transparent PNG,” “find a better photo,” “generate an illustration,” or similar work to the user when the environment can safely complete it itself.
+
+### 20. Fix the highest-impact experience first, then run a visitor-eye finish pass
+Do not perfect a micro-interaction, border, shadow, or tiny spacing issue while a weak hero, wrong structure, poor major image, broken hierarchy, redundant section, missing proof, or incoherent concept remains.
+
+Prioritize art-direction work roughly by impact:
+1. **concept, first impression, major structure, task/decision path, and truth;**
+2. **hero/primary media, major imagery, proof, hierarchy, section sequence, and representation choice;**
+3. **typography/material system, responsive art direction, interaction and motion concepts;**
+4. **micro-polish and decorative detail.**
+
+After executing the main interventions, inspect the experience as a first-time visitor rather than as its implementer. Judge the opening impression, focal point, clarity, curiosity, credibility, emotional tone, pacing, repetition, dead/awkward areas, asset quality, section transitions, moments of delight, action clarity, and whether anything visibly feels templated, arbitrary, cheap, synthetic in the wrong way, or unfinished.
+
+Fix the remaining **high-impact** problems in a bounded pass, then stop. The goal is not endless subjective tweaking; it is a coherent finished experience whose strongest decisions survive actual viewing.
+
+### 21. Use an asset intervention ladder
 Weak photography and weak supplied media are not sacred. When an image or media asset underperforms, choose the **least invasive intervention that actually solves the problem**:
 
 1. **Keep** it when it already earns its role.
@@ -126,7 +188,7 @@ When web/source access exists, the agent may proactively search for stronger rea
 
 For proof-sensitive people, products, places, facilities, events, craft results, medical subjects, credentials, or other decision-bearing claims, verified real imagery outranks generated substitution. When Impeccable is active, its provenance and asset-verification workflow governs the production path.
 
-### 19. Treat every expressive medium as editable art-direction material
+### 22. Treat every expressive medium as editable art-direction material
 Ownable is not limited to imagery, sections, or animation. Any medium that materially shapes the experience may be questioned and improved within scope: **typography, color and material language, content framing, imagery, illustration, iconography and graphic marks, diagrams and information graphics, data visualization, motion, interaction patterns, video, 3D/spatial media, sound, backgrounds/environmental layers, proof presentation, and responsive presentation**.
 
 The agent may **keep, refine, transform, replace, add, simplify, regroup, or remove** any of these when doing so materially improves subject specificity, hierarchy, comprehension, flow, proof, emotional effect, or ownability.
@@ -141,7 +203,7 @@ Ownable governs the **art-direction role and conceptual fit** of these media. Wh
 - Emil Kowalski skills govern motion and interaction mechanics;
 - verified product/brand truth and explicit scope remain binding.
 
-### 20. Choose the representation that communicates best
+### 23. Choose the representation that communicates best
 Do not assume every idea should become prose, every proof point a card, every process a paragraph, every comparison a table, every statistic a number tile, or every story an image.
 
 Choose the representational form that best serves the information and the subject. A concept may become **editorial text, annotated image, diagram, timeline, map, comparison, chart, process graphic, interactive explainer, video, 3D/spatial view, audio moment, or deliberate absence of media** when that form communicates more clearly or more meaningfully.
@@ -150,7 +212,7 @@ Information visualization must clarify real information, not decorate it. Do not
 
 This rule is about **representation choice**, not chart mechanics or UX implementation. Let active specialist skills govern detailed execution.
 
-### 21. Re-art-direct across contexts instead of merely resizing
+### 24. Re-art-direct across contexts instead of merely resizing
 Responsive design is also an art-direction decision. Do not assume the same media, crop, hierarchy, composition, sequence, interaction, or intensity should survive unchanged across desktop, tablet, mobile, touch, reduced-capability, or other supported contexts.
 
 When the concept benefits, Ownable may choose a different **crop, asset variant, media type, sequence, level of detail, interaction model, signature moment, or visual emphasis** for a different context while preserving the same identity and product truth.
@@ -159,7 +221,7 @@ A cinematic desktop moment may become a still, cutout, simplified sequence, or d
 
 Do not use responsive variation as permission to hide required content or functionality. Impeccable remains authoritative for technical responsive behavior, accessibility, progressive enhancement, device constraints, and state completeness; Ownable governs the **creative re-art-direction** across contexts.
 
-### 22. Use motion and interaction as art-direction material, not garnish
+### 25. Use motion and interaction as art-direction material, not garnish
 Motion can carry identity, hierarchy, spatial continuity, explanation, narrative progression, state change, feedback, or a rare signature moment. It should not exist merely because a premium website is expected to move.
 
 Within the permitted scope, Ownable may proactively **add, remove, simplify, replace, retarget, or conceptually redesign** animations and interaction moments when doing so materially strengthens the subject, Creative North Star, comprehension, flow, or user experience.
@@ -183,7 +245,7 @@ Do not animate every section, every image, or every entrance by default. Motion 
 
 Ownable governs **whether motion belongs, what role it serves, and whether its concept is subject-specific**. When Emil Kowalski skills are active, they govern animation mechanics and craft — timing, easing, springs, gesture behavior, interruptibility, transform origins, reduced-motion behavior, and related implementation details. When Taste or Impeccable is active, their broader visual/UX/system constraints remain binding.
 
-### 23. Use structural surgery and ordering authority when structure is the problem
+### 26. Use structural surgery and ordering authority when structure is the problem
 Within the permitted scope, Ownable may **sort, reorder, regroup, relabel, merge, split, replace, or remove** navigation items, tabs, sections, and content groups when doing so materially improves hierarchy, comprehension, narrative progression, proof sequencing, conversion logic, scanning, or task priority.
 
 If two optional sections or groups are serving essentially the same purpose, prefer **merge, differentiate, or remove** rather than preserving both by inertia. If a section's underlying concept is generic or structurally wrong, replace the section itself instead of merely polishing its shell. If an overloaded section contains genuinely different jobs, split it when separation improves comprehension or flow.
@@ -194,31 +256,31 @@ Preserve required information architecture, routes/deep links, legal or safety c
 
 When specialist companions are active, Taste and Impeccable govern the detailed layout/system/UX execution of the new structure, and Emil Kowalski skills govern any motion or interaction behavior affected by the change.
 
-### 24. Purpose first; asset second
+### 27. Purpose first; asset second
 Never invent a section solely to use an available photo, illustration, video, logo treatment, 3D object, or other asset. Establish the section's job first; use an asset only if it strengthens that job.
 
 If an asset does not earn a meaningful role anywhere in the experience, remove it unless the brief explicitly requires its use. If it is required, integrate it truthfully into an existing purpose rather than inventing filler around it. The asset folder is a source pool, not a checklist.
 
-### 25. Every image must answer two questions: why this, and why here?
+### 28. Every image must answer two questions: why this, and why here?
 An image should justify both its presence in the project and its exact placement beside this claim, section, task, or narrative moment. Palette harmony alone is not relevance. Subject matter, evidence, emotion, context, and semantic fit matter more.
 
-### 26. Default to image uniqueness, but audit perception rather than filenames
+### 29. Default to image uniqueness, but audit perception rather than filenames
 Do not repeatedly reuse the same exact photograph without a real reason such as identity continuity, comparison, narrative callback, gallery/detail continuity, recurring motif, or functional context.
 
 Different files can still feel duplicated when they show essentially the same pose, crop, angle, expression, product view, or scene. Avoid perceptual repetition across the whole experience.
 
-### 27. Let primary campaign media remain privileged
+### 30. Let primary campaign media remain privileged
 The strongest hero or campaign visual should normally remain special rather than being casually recycled. If it returns, make the callback deliberate or materially change its role through crop, detail, scale, framing, treatment, or context.
 
 Do not generate mediocre filler merely to satisfy image uniqueness. One exceptional recurring identity asset can be better than several unrelated weak ones when continuity genuinely matters.
 
-### 28. Build an asset language, not a pile of images
+### 31. Build an asset language, not a pile of images
 Plan how campaign media, editorial photography, people, products, architecture/environment, macro/detail crops, textures, illustration, video, 3D, transparent cutouts, and responsive variants relate to one another. Asset choices should reinforce one visual world.
 
-### 29. Treat asset scarcity as a creative constraint
+### 32. Treat asset scarcity as a creative constraint
 When strong imagery is limited, do not force every section to contain a photograph or generate decorative filler. Use typography, composition, verified data, materials, illustration, detail crops, negative space, interaction, or fewer stronger visuals as appropriate.
 
-### 30. Commission the missing asset, not a weaker concept
+### 33. Commission the missing asset, not a weaker concept
 The supplied asset folder is not the ceiling of the art direction. After the concept and section purposes are clear, identify the specific visual roles the experience genuinely needs and check whether the available assets can fulfill them.
 
 If a concept materially needs a missing macro detail, transparent cutout, alternate product angle, contextual scene, archival treatment, texture, diagram, illustration, crop, material study, environmental image, or another supporting asset, do one of three things:
@@ -230,7 +292,7 @@ Do not weaken a strong, truthful concept merely because the initial asset pack i
 
 For claim-sensitive people, products, places, facilities, craft results, medical subjects, or other evidence-bearing moments, verified real imagery outranks generated substitution. When Impeccable is active, follow its asset-production, provenance, and verification workflow.
 
-### 31. Generate bespoke illustrative assets when the concept earns them
+### 34. Generate bespoke illustrative assets when the concept earns them
 When the runtime can safely generate imagery, proactively consider original non-photographic assets — such as hand-drawn illustration, painting-like treatments, watercolor or gouache, ink or charcoal sketches, etching/engraving, collage, textured editorial artwork, diagrammatic compositions, mixed media, stylized 3D stills, or another subject-appropriate visual language — when they materially strengthen the experience.
 
 Use this as a first-class art-direction tool when it can express the Creative North Star, communicate atmosphere or symbolism, solve asset scarcity with intention, create narrative depth, or produce a more ownable visual language than generic photography.
@@ -247,50 +309,50 @@ These generated visuals remain subject to the same gates as every other image:
 
 Illustrative and documentary imagery may coexist. Use truthful real imagery for evidence-sensitive moments and authored/stylized imagery for atmosphere, metaphor, explanation, memory, ritual, process, or emotional framing when that distinction is clear.
 
-### 32. Proactively transform assets when useful and supported
+### 35. Proactively transform assets when useful and supported
 When the runtime can safely edit or generate assets, use background removal, transparent cutouts, masking, cleanup, relighting, reframing, perspective correction, object removal, background cleanup/replacement, compositing, upscale/detail recovery, crop variants, and supporting generated visuals when they materially improve the work.
 
 Do not make the user manually prepare transparent PNG/WebP/SVG variants when the available tools can safely produce them. If the runtime cannot transform assets, specify the needed variants instead of pretending they were created.
 
-### 33. Asset preparation must preserve truth
+### 36. Asset preparation must preserve truth
 Logo cleanup is not logo redesign: preserve lettering, geometry, proportions, spacing, recognizable colors, and identity unless redesign is explicitly requested.
 
 For real people, products, jewellery, architecture, facilities, medical subjects, technical information, or other decision-critical visuals, enhancement must not invent misleading features, outcomes, materials, facilities, credentials, or characteristics. Distinguish documentary/proof imagery from illustrative/atmospheric imagery.
 
-### 34. Art-direct assets for their context
+### 37. Art-direct assets for their context
 Do not assume one crop or composition should serve every placement. Create or select desktop/mobile, portrait/landscape, detail/full-scene, light/dark-background, or cutout variants when they materially improve focus and storytelling.
 
-### 35. Real proof beats decorative prestige
+### 38. Real proof beats decorative prestige
 When reassurance matters, prefer truthful evidence such as real work, products, facilities, process, people, credentials, locations, reviews, or other verified proof over decorative “premium” signals. Keep proof close to the claim or decision it supports when possible. Never fabricate trust-bearing facts to complete a design.
 
-### 36. Preserve brand gravity around famous faces
+### 39. Preserve brand gravity around famous faces
 When a celebrity, ambassador, founder, doctor, model, influencer, or performer appears, the surrounding experience should still belong to the underlying brand/product unless that person is themselves the primary brand.
 
-### 37. Visual economy is not minimalism
+### 40. Visual economy is not minimalism
 Every visible element and every large empty area consumes attention. Decoration and whitespace should support hierarchy, identity, atmosphere, tension, rhythm, comprehension, or narrative. Sparse is not automatically premium; rich is not automatically cluttered.
 
 When something feels weak, test whether the real problem is unnecessary structure, redundant content, weak assets, or a missing concept before decorating it further.
 
-### 38. Design the whole experience as a sequence or flow
+### 41. Design the whole experience as a sequence or flow
 For narrative, editorial, campaign, and marketing experiences, plan progression: opening, orientation, proof, depth, contrast, quieter passages, interaction, decision/action, and ending. Not every section should carry equal visual intensity.
 
 For task-oriented products, apply the same principle to flow, priority, and state progression rather than forcing storytelling onto the interface.
 
-### 39. Signature moments must be subject-specific
+### 42. Signature moments must be subject-specific
 For ambitious work, seek one or a small number of memorable moments that emerge from the subject's story, material, image, behavior, data, environment, typography, interaction, or transformation. A fashionable shader, marquee, cursor effect, horizontal scroll, or 3D object is not a signature merely because it is unusual.
 
-### 40. Explore advanced media broadly; ship it only when the concept earns it
+### 43. Explore advanced media broadly; ship it only when the concept earns it
 3D, WebGL, shaders, generative graphics, cinematic video, image sequences, physics, spatial galleries, sound, unusual navigation, configurators, and other advanced techniques may be considered proactively. They survive only when they strengthen the concept. Let active specialist skills govern motion, accessibility, performance, and progressive enhancement.
 
-### 41. Do not confuse repetition with consistency
+### 44. Do not confuse repetition with consistency
 Consistency comes from shared rules, materials, typography, behavior, and hierarchy, not from stamping the same composition, photograph, card arrangement, motif, or effect everywhere. A recurring motif should evolve with context rather than become wallpaper.
 
-### 42. Check the design fingerprint
+### 45. Check the design fingerprint
 When prior work or reference history is available, compare major fingerprints: navigation silhouette/behavior, hero composition, typography pairing, palette mood, card grammar, section rhythm, CTA treatment, gallery behavior, footer structure, cursor treatment, 3D trick, reveal choreography, and signature interactions.
 
 Reuse quality standards and implementation primitives; avoid reusing an unrelated project's recognizable surface identity.
 
-### 43. Final ownability check
+### 46. Final ownability check
 Before considering substantial art direction complete, verify that:
 
 - the experience feels specific to its subject;
@@ -300,6 +362,9 @@ Before considering substantial art direction complete, verify that:
 - the composition follows the content instead of forcing every content type into the same shell;
 - every major section/page/screen earns its place within the brief;
 - every major section and every meaningful expressive medium in scope has been actively judged rather than preserved by inertia;
+- justified fixes that the environment could safely perform were actually executed rather than handed back to the user as suggestions;
+- strong visual-quality claims are supported by rendered/visual evidence when such evidence is available;
+- the result has passed a first-time visitor-eye finish pass, with high-impact defects fixed before micro-polish;
 - the chosen medium for important information is the one that communicates best rather than the one the template expected;
 - responsive contexts have been re-art-directed where necessary instead of merely receiving a smaller version of the same composition;
 - redundant or poorly ordered sections, tabs, navigation items, and content groups have been merged, differentiated, regrouped, reordered, replaced, or removed when the permitted scope called for it;

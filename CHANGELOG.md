@@ -2,6 +2,19 @@
 
 All notable changes to Ownable are documented here.
 
+## 1.6.0 — 2026-09-21
+
+- changed Ownable's default modification behavior from critique-capable to explicitly action-first: diagnosis chooses the intervention; the changed artifact is the deliverable;
+- added a default execution loop: understand → inspect rendered evidence → prioritize → execute → re-render → fix remaining high-impact issues → finish;
+- requires agents to use available capabilities to perform justified fixes instead of handing executable work back to the user as recommendations;
+- explicitly covers capability-triggered sourcing, image generation, background removal/alpha cutouts, cleanup, reframing, relighting, compositing, responsive variants, structural edits, diagrams, motion/interaction implementation, video/3D treatments, and other supported interventions;
+- added rendered-evidence-before-visual-claims: source inspection alone cannot prove composition, crop, polish, atmosphere, responsiveness, or visual impact;
+- added representative visual inspection for substantial web work, while deferring detailed verification mechanics to Impeccable when active;
+- added high-impact-first triage so concept/first impression/structure/major media/proof/hierarchy are fixed before micro-polish;
+- added a first-time visitor-eye finish pass covering opening impression, focal point, clarity, credibility, pacing, repetition, dead areas, asset quality, section transitions, delight, action clarity, templatedness, and unfinished feel;
+- requires bounded finishing rather than endless subjective tweaking;
+- preserves no-fake-capability behavior: Ownable must not claim an asset, edit, animation, or visual verification was completed when the environment could not actually perform it.
+
 ## 1.5.0 — 2026-09-20
 
 - generalized Ownable from image/structure/motion intervention into medium-agnostic art-direction intervention;
